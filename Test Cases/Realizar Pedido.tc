@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Realizar Pedido</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef9ad2d7-3b43-4765-a9b8-3c76de35bf8a</testCaseGuid>
+</TestCaseEntity>

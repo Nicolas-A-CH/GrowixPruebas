@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Crear Solicitud</name>
+   <tag></tag>
+   <elementGuidId>a487da84-a131-4322-accc-a1646c380302</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='navbar-vertical-content scrollbar']//a[contains(text(), 'Crear Solicitud')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#events15 > li.nav-item > #irMenu</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ed77743d-fb99-4c39-9849-a39cd75fa45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>irMenu</value>
+      <webElementGuid>0beb5afe-d35a-4d78-9ac9-86e13fd4f379</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link </value>
+      <webElementGuid>cda38c39-eb4d-4464-ba7e-e6b37285b13f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:actualizaVariableCodmodulo('../jsp/cliente/creaSolicitud.jsp')</value>
+      <webElementGuid>c0e6cce4-88e7-4fd8-b948-ea5dcc09f013</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:irmenu('1','/sales-orders/jsp/../jsp/cliente/creaSolicitud.jsp')</value>
+      <webElementGuid>812e5a19-3f2b-4532-b988-f744ae6d86ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Crear Solicitud</value>
+      <webElementGuid>2b0e42ca-2ef0-41fb-baed-cb2e866f42b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarVerticalNav&quot;)/li[@class=&quot;nav-item&quot;]/ul[@id=&quot;events15&quot;]/li[@class=&quot;nav-item&quot;]/a[@id=&quot;irMenu&quot;]</value>
+      <webElementGuid>2a90ff21-f3f7-4e66-9cbb-91a06224e2d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='irMenu'])[3]</value>
+      <webElementGuid>5ea0b0e6-93bd-4e61-927d-fc453264c369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='events15']/li/a[2]</value>
+      <webElementGuid>da20116b-afe1-48e9-a0b1-2cfe352f40e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Crear Solicitud')]</value>
+      <webElementGuid>b8f3f657-2b76-4a61-a599-68b87426c514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes'])[1]/following::a[2]</value>
+      <webElementGuid>2b05f4c2-1f95-47ff-8c96-126965c09484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear Cliente'])[1]/following::a[3]</value>
+      <webElementGuid>3493a2ec-bac1-4a58-9887-ff17aba20302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Solicitudes Pendientes'])[1]/preceding::a[2]</value>
+      <webElementGuid>abbaae63-62ce-4f66-aac8-651843ba651e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Solicitudes Cotizadas'])[1]/preceding::a[4]</value>
+      <webElementGuid>e37834b8-254d-4ea3-83ad-cae77af70630</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Crear Solicitud']/parent::*</value>
+      <webElementGuid>479ea05a-4ada-4078-aa98-ed8745e9e89a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:irmenu('1','/sales-orders/jsp/../jsp/cliente/creaSolicitud.jsp')&quot;)]</value>
+      <webElementGuid>0a28129e-7cda-48b1-bb3f-eb3c22e5e889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[3]/li/a[2]</value>
+      <webElementGuid>adb16a1f-11e9-4fb5-b95a-ce186d4b27f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'irMenu' and @href = concat(&quot;javascript:irmenu(&quot; , &quot;'&quot; , &quot;1&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/sales-orders/jsp/../jsp/cliente/creaSolicitud.jsp&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Crear Solicitud' or . = 'Crear Solicitud')]</value>
+      <webElementGuid>bd892c94-0b8b-4a36-96da-864d4065c5fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
