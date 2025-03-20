@@ -10,29 +10,39 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
+import groovy.json.JsonSlurper
 import internal.GlobalVariable
 import utils.InicioSesion
 
 import org.openqa.selenium.Keys as Keys
 
+String jsonFilePath = 'D:\\Descargas\\Pruebas growix.json'
+
 //Inicializar class
 InicioSesion iniciarSesion = new InicioSesion()
+String jsonText = new File(jsonFilePath).text
+def jsonData = new JsonSlurper().parseText(jsonText)
+List solicitudes = jsonData.'solicitudes_pendientes (3)'
 
 //Elementos que pueden cambiar y se repiten muchas veces
 TestObject spiner = findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/SppinerLoadPage')
 
+TestObject getVerMasDetallesLink(int fila) {
+	String xpath = "(//a[contains(text(), 'Ver más detalles')])[${fila}]"
+	TestObject link = new TestObject()
+	link.addProperty('xpath', ConditionType.EQUALS, xpath)
+	return link
+}
+
 // Definir el usuario actual (puedes cambiarlo dinámicamente según tu caso de prueba)
 String usuario = "ClientePruebasCO"
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
-String vinEsperado = "64687651"
-String marcaEsperada = "Docker benz - 2020"
-String numeroParteEsperado = "654658"
-String descripcionEsperada = "motor"
-String cantidadEsperada = "4"
 String estadoEsperado = "Sin revisar"
 
 // Definir el valor del select según el usuario
@@ -54,32 +64,23 @@ WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1
 
 WebUI.waitForElementNotVisible(spiner, 30)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/a_Realizar pedido'), 30)
+WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Cargar excel'), 30)
 
-WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/a_Realizar pedido'))
+WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Cargar excel'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/select_Seleccione.                         _4685bc'), 30)
+WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/select_Form_Excel'), 30)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/select_Seleccione.                         _4685bc'), 5)
+WebUI.selectOptionByValue(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/select_Form_Excel'), valorSelect, true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/select_Seleccione.                         _4685bc'), 
-    valorSelect, true)
+WebUI.uploadFile(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/inputArchivoExcel'), 'D:\\Descargas\\Pruebas growix.xlsx')
 
-WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_VIN (se recomienda ingresar este valo_33dc7e'), vinEsperado)
+WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_ENVIAR_excel'))
 
-WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_Marca versin y modelo_marcaPedido'), marcaEsperada)
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/spinnerFormularioExcel'), 60)
 
-WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_Nmero de parte_numeroParte'), numeroParteEsperado)
+WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Aceptar_excel'), 30)
 
-WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_Descripcin parte_descripcionParte'), descripcionEsperada)
-
-WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_Cantidad_cantidadPartes'), cantidadEsperada)
-
-WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Generar solicitud'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/div_Solicitud creadaLa solicitud se ha crea_ad8639'), 30)
-
-WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Aceptar'))
+WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Aceptar_excel'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/table_Solicitudes'), 30)
 
@@ -109,11 +110,6 @@ TestObject celdaEstado = findTestObject('Object Repository/RealizarPedido/Page_S
 String estadoActual = WebUI.getText(celdaEstado)
 
 // Validaciones
-WebUI.verifyMatch(vinActual, vinEsperado, false)
-WebUI.verifyMatch(marcaActual, marcaEsperada, false)
-WebUI.verifyMatch(numeroParteActual, numeroParteEsperado, false)
-WebUI.verifyMatch(descripcionActual, descripcionEsperada, false)
-WebUI.verifyMatch(cantidadActual, cantidadEsperada, false)
 WebUI.verifyMatch(estadoActual, estadoEsperado, false)
 
 WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Cerrar_Detalles'))

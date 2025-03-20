@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Realizar Pedido Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e0021a6-1aaa-434e-83aa-7cb19ff6b2ff</testCaseGuid>
+</TestCaseEntity>

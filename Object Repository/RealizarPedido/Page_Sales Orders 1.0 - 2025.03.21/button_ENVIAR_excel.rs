@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ENVIAR_excel</name>
+   <tag></tag>
+   <elementGuidId>a609ac6e-7133-4383-ac8f-daa90ca8d436</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick='javascript:enviararchivo()']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-falcon-info.btn-sm.float-start</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d304ab9e-6034-4141-bb9e-9ab2e36a8d50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-falcon-info btn-sm float-start</value>
+      <webElementGuid>fb50b016-cdcf-40c3-b97e-d32601e4b5e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:enviararchivo()</value>
+      <webElementGuid>6836e403-b5ae-406f-883d-dc313313ac3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        
+                         ENVIAR
+                    </value>
+      <webElementGuid>462b8a3e-37e1-4f8b-a79e-10e972614806</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;upform&quot;)/div[@class=&quot;row g-2&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;position-relative py-4&quot;]/button[@class=&quot;btn btn-falcon-info btn-sm float-start&quot;]</value>
+      <webElementGuid>471a4644-4526-4c91-b98b-3cf738ed1d3f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick='javascript:enviararchivo()']</value>
+      <webElementGuid>c9e95197-68ac-4f96-9f7a-f53769f9756f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='upform']/div[2]/div[2]/div/button</value>
+      <webElementGuid>b28ef079-8b2c-408e-b312-eec0b4294b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione un archivo'])[1]/following::button[1]</value>
+      <webElementGuid>4074a85e-dcca-4164-8528-d2dda05b99f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿A qué sede va a realizar el pedido? *'])[1]/following::button[1]</value>
+      <webElementGuid>95c752b9-4e1e-4208-835d-f897bbccc397</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>9fcd7d17-5c5e-4e4d-90cb-8fd14d34e1de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '
+                        
+                         ENVIAR
+                    ' or . = '
+                        
+                         ENVIAR
+                    ')]</value>
+      <webElementGuid>8bf82ace-26a2-48b7-a68e-7ecb1f8c2a49</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
