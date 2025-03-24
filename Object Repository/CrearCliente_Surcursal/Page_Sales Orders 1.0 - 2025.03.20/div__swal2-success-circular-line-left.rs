@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__swal2-success-circular-line-left</name>
+   <tag></tag>
+   <elementGuidId>66414031-5b22-408b-b0df-5811d8717e26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.swal2-success-circular-line-left</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>872a9da5-5b8f-4a0f-b7e5-4a97a7b9e2f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-success-circular-line-left</value>
+      <webElementGuid>5b2db8ae-cd8f-42bc-99d0-a27948f1a71e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;swal2-shown swal2-height-auto chrome windows fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-top-end swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal alertaBasicaAsonac-container swal2-icon-success swal2-show&quot;]/div[@class=&quot;swal2-icon swal2-success alertaBasicaAsonac-icon swal2-icon-show&quot;]/div[@class=&quot;swal2-success-circular-line-left&quot;]</value>
+      <webElementGuid>d94514a8-1ea2-493c-9720-e097aa08cc4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/div/div/div/div</value>
+      <webElementGuid>b064a4ac-bcf5-4c6c-a817-f31fea06537b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

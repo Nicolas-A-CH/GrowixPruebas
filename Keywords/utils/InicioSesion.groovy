@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class InicioSesion {
-	
+
 	static void inicioSesionDinamico(String nameUsuario) {
 		WebUI.click(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/a_Ingresar'))
 		WebUI.setText(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/input_Login_username'), nameUsuario)
@@ -31,7 +31,7 @@ public class InicioSesion {
 		waitForSpinnerToDisappear()
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.21/img'), 30)
 	}
-	
+
 	private static void waitForSpinnerToDisappear(int timeout = 90, int pollingInterval = 2) {
 		TestObject spinner = findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/div_Ingresar_spinner')
 		for (int i = 0; i < timeout; i += pollingInterval) {
