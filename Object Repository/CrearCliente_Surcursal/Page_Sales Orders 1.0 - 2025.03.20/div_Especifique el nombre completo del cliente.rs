@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Especifique el nombre completo del cliente</name>
+   <tag></tag>
+   <elementGuidId>dc9f2762-a3e1-4754-8c86-77b2caf9a314</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='personaNatural']/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2f969434-9a2a-4caf-b9e2-b11ab44abcd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>invalid-feedback</value>
+      <webElementGuid>d4efb32a-f541-4f10-a453-1f1ecc4b8c99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Especifique el nombre completo del cliente</value>
+      <webElementGuid>373f3ffb-4b85-4ce0-8063-8a334db998ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;personaNatural&quot;)/div[@class=&quot;row g-2&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;invalid-feedback&quot;]</value>
+      <webElementGuid>8acd99ab-5171-4955-aafd-a43cd50d10c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='personaNatural']/div[2]/div/div/div</value>
+      <webElementGuid>2e6d33ff-0ff4-4f3c-870d-af0486480b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre Completo'])[1]/following::div[1]</value>
+      <webElementGuid>a53848c0-caf7-403f-ab06-d98bae0e0b9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione el estado del Cliente (Activo / Inactivo)'])[1]/following::div[4]</value>
+      <webElementGuid>ca367bbd-3773-4237-b527-249a391c6ac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciudad'])[1]/preceding::div[1]</value>
+      <webElementGuid>6489bd39-6b42-4829-927e-dd8915763a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Especifique la ciudad del Cliente'])[1]/preceding::div[1]</value>
+      <webElementGuid>43887cd9-b9be-4ccd-b645-4646c792483c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Especifique el nombre completo del cliente']/parent::*</value>
+      <webElementGuid>2752bfad-64e5-4130-ab0a-5fb41ff68a3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>0b96a299-f2b3-4eee-91fd-0c21f0f463c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Especifique el nombre completo del cliente' or . = 'Especifique el nombre completo del cliente')]</value>
+      <webElementGuid>3faaa075-be49-4ed1-a251-c78f8ccc08b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

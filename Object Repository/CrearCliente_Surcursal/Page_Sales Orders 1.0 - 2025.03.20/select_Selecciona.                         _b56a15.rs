@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Selecciona.                         _b56a15</name>
+   <tag></tag>
+   <elementGuidId>36ded581-3134-4968-abee-4ceb96c04248</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='tipoPersona']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tipoPersona</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1e6a88b2-9e43-411c-8b71-cf1fdf9f8f1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tipoPersona</value>
+      <webElementGuid>25a2df9f-d868-4e69-87d0-f00357e8cefa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>tipoPersona</value>
+      <webElementGuid>40ea4ee3-3da8-4d33-90b5-3d061561ec9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select</value>
+      <webElementGuid>c288922b-a773-472d-8d27-aeb3aa410a25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                Selecciona...
+                                                                Persona Natural
+                                                                Empresa
+                                                            </value>
+      <webElementGuid>1ce7943f-7f6a-4006-95de-7ced3a2345e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tipoPersona&quot;)</value>
+      <webElementGuid>01ecf5a6-5fde-4ae0-8059-fee7c216e402</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='tipoPersona']</value>
+      <webElementGuid>47f0c3a8-3f73-45a1-866a-bf1dd4b39649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frm']/div/div/div/select</value>
+      <webElementGuid>8c3519a9-0b47-49ee-bc85-79f8366a8723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Usuario'])[1]/following::select[1]</value>
+      <webElementGuid>a192c41e-fd9b-449e-a8e7-834b82b3c47c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cliente'])[1]/following::select[1]</value>
+      <webElementGuid>8f8087c2-7775-4bc0-81b7-791fd5f95080</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona el tipo de cliente'])[1]/preceding::select[1]</value>
+      <webElementGuid>b8daa2da-999c-4d94-b8a4-94e8a2c87172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='País:'])[1]/preceding::select[1]</value>
+      <webElementGuid>2d641418-e695-4303-8cb6-6b299d6674cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/select</value>
+      <webElementGuid>e12c2c28-1cae-4e23-8127-d16061b7fd8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'tipoPersona' and @name = 'tipoPersona' and (text() = '
+                                                                Selecciona...
+                                                                Persona Natural
+                                                                Empresa
+                                                            ' or . = '
+                                                                Selecciona...
+                                                                Persona Natural
+                                                                Empresa
+                                                            ')]</value>
+      <webElementGuid>9c648d89-cad8-4d7b-8a28-d2b96388d302</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

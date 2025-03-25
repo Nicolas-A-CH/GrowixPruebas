@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione el Pas.                  _20c8cd</name>
+   <tag></tag>
+   <elementGuidId>96686e64-98ac-4860-a8ed-49ef00aa5fd1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='pais']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pais</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f83efa7d-9068-43f7-8aae-7c96971896f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pais</value>
+      <webElementGuid>cd59e47c-69a7-44ac-a368-8bbaf17848ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>pais</value>
+      <webElementGuid>46082324-9664-4a22-bacc-ea0553bfcfea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>d65282db-4124-4254-a631-8f2464f135ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>validarSeleccion()</value>
+      <webElementGuid>f6a34476-1326-419e-a13e-efff81fc7acc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                Seleccione el País...
+                                                Colombia
+Ecuador
+
+                                            </value>
+      <webElementGuid>f11c1019-943e-4680-aff0-ff4613f9f0e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pais&quot;)</value>
+      <webElementGuid>a3c94541-6a06-439b-9dae-abc3d676214f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='pais']</value>
+      <webElementGuid>287c79d2-8079-4512-9981-da9e4f14357e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='top']/div/div/div[4]/form/div/div/div/div/select</value>
+      <webElementGuid>638b8fe9-ab24-444c-912b-e9f92bbd3e91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='País:'])[1]/following::select[1]</value>
+      <webElementGuid>343a131f-f9d9-4f02-89a4-c3e2de959248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lista de Clientes'])[1]/following::select[1]</value>
+      <webElementGuid>21a602a5-20f8-49a5-8786-da8ff51d613f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear cliente'])[1]/preceding::select[1]</value>
+      <webElementGuid>8eafc040-6abd-4be1-84a1-5873583df0da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editar'])[1]/preceding::select[1]</value>
+      <webElementGuid>9b192f97-c963-4917-8924-0520661c4a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>85c4591a-03c3-4b6c-b9be-b7762b5bbc23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'pais' and @name = 'pais' and (text() = '
+                                                Seleccione el País...
+                                                Colombia
+Ecuador
+
+                                            ' or . = '
+                                                Seleccione el País...
+                                                Colombia
+Ecuador
+
+                                            ')]</value>
+      <webElementGuid>10ff3723-b1b6-48d1-a3ff-af4b787c0ebd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

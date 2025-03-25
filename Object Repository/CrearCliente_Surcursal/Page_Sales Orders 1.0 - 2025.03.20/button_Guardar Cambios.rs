@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Guardar Cambios</name>
+   <tag></tag>
+   <elementGuidId>7ac37603-1e4c-4a35-a8f3-fd68599253cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='guardar']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;guardar&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7e6555ae-10c3-4026-9e52-d586f030c01d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9297517d-76c7-4bc5-b2f7-7fb9f17b5a20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-falcon-success btn-sm</value>
+      <webElementGuid>82de9581-4b8d-4573-a7dc-8cadcef1be3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>guardar</value>
+      <webElementGuid>320dafca-b3b5-4b42-acb1-191eb02bfe9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:actualiza()</value>
+      <webElementGuid>ef710a70-21f7-4731-b0bf-c45ab1def28d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                      Guardar Cambios
+                                                </value>
+      <webElementGuid>b8db1a80-eb93-41f3-8bbd-e3f945f7ad7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wizard-controller&quot;)/div[@class=&quot;tab-content&quot;]/div[@class=&quot;card-footer bg-light&quot;]/div[@class=&quot;row w-20 align-items-center px-sm px-md-5&quot;]/button[@class=&quot;btn btn-falcon-success btn-sm&quot;]</value>
+      <webElementGuid>7e5465c7-1d29-417d-8302-639afc7f9188</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='guardar']</value>
+      <webElementGuid>f5c9fdfe-e2fd-4e06-9272-3d02e7c5b58e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wizard-controller']/div/div[2]/div/button</value>
+      <webElementGuid>e59dd84c-236c-4d75-913e-eee449d20c66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Responsable de IVA'])[2]/following::button[1]</value>
+      <webElementGuid>a404338b-20db-472e-af4e-59c4806ff7ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Obligado a llevar contabilidad'])[1]/following::button[1]</value>
+      <webElementGuid>223f0153-372c-455f-9fa2-09ba4389f50c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>adbcf5bd-f911-405f-8d0f-b137c4dddb6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @name = 'guardar' and (text() = '
+                                                      Guardar Cambios
+                                                ' or . = '
+                                                      Guardar Cambios
+                                                ')]</value>
+      <webElementGuid>c7559028-0fae-46c0-a04e-88cb6309533a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
