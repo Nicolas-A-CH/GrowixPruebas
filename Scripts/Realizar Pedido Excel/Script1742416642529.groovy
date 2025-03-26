@@ -118,9 +118,9 @@ WebUI.waitForElementNotVisible(findTestObject('Object Repository/RealizarPedido/
 
 WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/logo_Usuario'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/cerrar_Sesion'), 30)
+WebUI.waitForElementVisible(findTestObject('null'), 30)
 
-WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/cerrar_Sesion'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/modal_Confirmacion_Cerrar_Sesion'), 30)
 

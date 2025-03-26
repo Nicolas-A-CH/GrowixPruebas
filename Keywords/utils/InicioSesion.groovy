@@ -29,6 +29,11 @@ public class InicioSesion {
 		WebUI.click(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/button_Ingresar'))
 
 		waitForSpinnerToDisappear()
+
+		if (WebUI.waitForElementVisible(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"), 10, FailureHandling.OPTIONAL)) {
+			WebUI.click(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"))
+		}
+
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.21/img'), 30)
 	}
 
@@ -41,5 +46,19 @@ public class InicioSesion {
 			WebUI.delay(pollingInterval)
 		}
 		throw new Exception("❌ El spinner no desapareció después de ${timeout} segundos")
+	}
+
+	static void cerrarSesion() {
+		WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/logo_Usuario'))
+
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/a_Salir'), 30)
+
+		WebUI.click(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/a_Salir'))
+
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Salir'), 30)
+
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Salir'), 0)
+
+		WebUI.click(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Salir'))
 	}
 }

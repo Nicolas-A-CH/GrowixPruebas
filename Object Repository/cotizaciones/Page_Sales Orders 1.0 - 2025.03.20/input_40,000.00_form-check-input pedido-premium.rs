@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_40,000.00_form-check-input pedido-premium</name>
+   <tag></tag>
+   <elementGuidId>39b1288a-aed9-48fe-b9ed-3c81eb47676e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-check-input.pedido-premium</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a80425c6-e304-4bae-a416-65b495838830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>360fb937-cc9a-4825-a95b-a6d7362e02b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-input pedido-premium</value>
+      <webElementGuid>d1c7d038-4164-400b-86e2-70c9d2e4c09c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblDetalleSolicitud&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/input[@class=&quot;form-check-input pedido-premium&quot;]</value>
+      <webElementGuid>46d636af-2f13-4c5c-976e-ead841c739df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[3]</value>
+      <webElementGuid>56c631c4-c8e7-45b1-94c3-efb5eefa553b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblDetalleSolicitud']/tbody/tr/td[8]/input</value>
+      <webElementGuid>7412b5b0-2fb9-422f-86e4-e40c2d228fdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/input</value>
+      <webElementGuid>a435094b-ed7a-4f70-8468-1ea75fb215b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>1ec31055-3cc9-4b22-8385-4c7db68ab28a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

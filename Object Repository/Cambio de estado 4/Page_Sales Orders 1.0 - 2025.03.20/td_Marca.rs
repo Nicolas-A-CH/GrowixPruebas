@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Marca</name>
+   <tag></tag>
+   <elementGuidId>a1a194fc-7d61-40d9-ad34-4acaf4869c8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(14)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[14]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>c9e6c670-0036-4baf-9cc3-b861e0a1f288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Docker benz - 2020</value>
+      <webElementGuid>5e903a9d-cc9a-427e-87c3-a7b60e4ca840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblSolicitudesPendientes&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[14]</value>
+      <webElementGuid>63a0fea3-68b4-4a26-b87f-2ba5e283240c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[14]</value>
+      <webElementGuid>ba5356d8-bf8a-4430-bfc2-f62bde8ddd80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calle 156 B - 99F - 66D #654 (cambiar por direccion real)'])[1]/following::td[3]</value>
+      <webElementGuid>2f113438-e530-40a2-bb11-aef30b466a57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GROWIX COLOMBIA (CAMBIAR POR SEDE REAL)'])[1]/following::td[4]</value>
+      <webElementGuid>01eb43bc-4027-4a15-996a-70b026902128</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/preceding::td[2]</value>
+      <webElementGuid>45566536-7987-4c76-831e-0325a7f41c24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$11,000.00'])[1]/preceding::td[4]</value>
+      <webElementGuid>f2ff347f-21bd-492d-9d45-7e718bbcdd78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Docker benz - 2020']/parent::*</value>
+      <webElementGuid>5f853e02-3d11-4ee2-8efb-ea18ef6e8924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[14]</value>
+      <webElementGuid>d1758559-4002-4a9d-9c01-cf34cc546e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Docker benz - 2020' or . = 'Docker benz - 2020')]</value>
+      <webElementGuid>c2ebddd1-f331-422a-b49c-ecea014782e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

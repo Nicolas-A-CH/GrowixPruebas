@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_SubTotal</name>
+   <tag></tag>
+   <elementGuidId>dbf6b1f6-aee2-41f7-a62c-e03abb15468e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblDetalleSolicitud']/tbody/tr/td[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tblDetalleSolicitud > tbody > tr.odd > td:nth-of-type(7)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>bacd62c6-2bbf-4df6-a9c5-a0eef2d8ee19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$40,000.00</value>
+      <webElementGuid>fc0f5119-f505-4f90-94b6-88e632fbc76b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblDetalleSolicitud&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[7]</value>
+      <webElementGuid>08278736-2f33-47d5-b314-c1eca4b08630</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblDetalleSolicitud']/tbody/tr/td[7]</value>
+      <webElementGuid>24e5d4d9-386b-422d-a76c-db87519d2b95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/following::td[3]</value>
+      <webElementGuid>c356246f-9274-4d1e-95ea-df851074f7d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Docker benz - 2020'])[1]/following::td[5]</value>
+      <webElementGuid>5e03b00f-46ee-4014-af3e-3a6d90b578ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$47,600.00'])[1]/preceding::td[2]</value>
+      <webElementGuid>0f6bf6bf-3197-4bed-bc4a-3e6e7a4b6c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/table/tbody/tr/td[7]</value>
+      <webElementGuid>5e6f964e-8e27-4751-9866-7895ed5618df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '$40,000.00' or . = '$40,000.00')]</value>
+      <webElementGuid>c715f893-9d70-46b1-bef6-96cfef00a7ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

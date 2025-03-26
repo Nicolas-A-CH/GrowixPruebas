@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Estado</name>
+   <tag></tag>
+   <elementGuidId>59c4eaf2-fbdd-4148-8471-ec2350058193</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>32160cfe-c9d5-4c7a-8913-2f0847a134d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pedido aprobado</value>
+      <webElementGuid>0b9f9605-02fe-414e-a07e-13b23523cd2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblSolicitudesPendientes&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]</value>
+      <webElementGuid>2808a46d-45bc-4f1c-a68a-5f53c9325cf7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[3]</value>
+      <webElementGuid>3e9c385a-7845-4aaf-8a7d-a7baa057a274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrega Estimada'])[1]/following::td[3]</value>
+      <webElementGuid>9ed3ff8e-5bce-49a3-96ec-949fff8849bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total (Sin IVA)'])[1]/following::td[3]</value>
+      <webElementGuid>4e62cd35-3b58-4310-8255-067a13fcf8ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SI'])[1]/preceding::td[2]</value>
+      <webElementGuid>58bfd3a4-ea9a-4559-b9ed-57073f71ac2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>46a0715a-6c8c-4160-87e5-a4e6763f1dfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Pedido aprobado' or . = 'Pedido aprobado')]</value>
+      <webElementGuid>6db1aed3-4660-4809-be86-b1276cded1b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

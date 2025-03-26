@@ -21,17 +21,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CalculosPedido {
-	
-	static double calcularSubtotal(double cantidad, double precioUnitario) {
-		return cantidad * precioUnitario
-	}
-	
-	static double calcularIVA(double subtotal, String usuario) {
-		double ivaPorcentaje = (usuario == "GrowixCO") ? 0.19 : 0.15
-		return subtotal * ivaPorcentaje
-	}
-	
-	static double calcularTotalConIVA(double subtotal, double iva) {
-		return subtotal + iva
-	}
+
+	 // Calcula el subtotal base (sin aumento)
+    static double calcularSubtotalBase(double cantidad, double precioUnitario) {
+        return cantidad * precioUnitario
+    }
+
+    // Aplica el 10% de aumento si es premium
+    static double aplicarAumentoPremium(double subtotalBase) {
+        return subtotalBase * 1.10
+    }
+
+    // Calcula el IVA sobre el subtotal base (sin aumento)
+    static double calcularIVA(double subtotalBase, String usuario) {
+        double ivaPorcentaje = (usuario == "Solucionador2CO" || usuario == "Solicitante2PruebasCO") ? 0.19 : 0.15
+        return subtotalBase * ivaPorcentaje
+    }
+
+    // Calcula el total: subtotal con aumento + IVA (sobre subtotal base)
+    static double calcularTotal(double subtotalConIncremento, double iva) {
+        return subtotalConIncremento + iva
+    }
 }

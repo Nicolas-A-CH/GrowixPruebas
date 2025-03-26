@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Actualizar estado</name>
+   <tag></tag>
+   <elementGuidId>832622da-091e-4d1d-a775-bcb5a045c461</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btnActualizarEstado</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnActualizarEstado']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>18c2d1d6-3e5a-41ec-bde4-4eac387f61a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnActualizarEstado</value>
+      <webElementGuid>86e5a381-0430-44cf-aa72-e6a14b322604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary mt-4 </value>
+      <webElementGuid>7d364532-b2ae-4975-9a5c-53d3693250d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Actualizar estado</value>
+      <webElementGuid>ba713faf-5f81-4605-8285-8b693db0061b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnActualizarEstado&quot;)</value>
+      <webElementGuid>36c3d933-cccc-4b74-a97e-64f2a4ca0851</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btnActualizarEstado']</value>
+      <webElementGuid>950fa491-23d4-42e9-ba23-c68b5fcbea2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='top']/div/div/div[4]/div/div/div[2]/button</value>
+      <webElementGuid>d5a336ac-db3c-4ef8-b2ed-9c930c2d8831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar estado:'])[1]/following::button[1]</value>
+      <webElementGuid>8207a39e-adae-4408-833a-21d5f674c11b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestión de Estados'])[1]/following::button[1]</value>
+      <webElementGuid>24577bf1-fc64-4f02-8f09-997193aed7e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes'])[1]/preceding::button[1]</value>
+      <webElementGuid>2e4a307b-ee72-48d6-9e4f-c6abc060e4bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Actualizar estado']/parent::*</value>
+      <webElementGuid>b724a374-9225-42e3-8b19-20c3d6abd980</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>b924887c-0b30-4b6d-ad2b-a9b920c72019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btnActualizarEstado' and (text() = 'Actualizar estado' or . = 'Actualizar estado')]</value>
+      <webElementGuid>1e97f4e6-1220-4554-9e3e-780744479d32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

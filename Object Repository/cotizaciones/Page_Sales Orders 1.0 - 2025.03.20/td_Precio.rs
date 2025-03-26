@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Precio</name>
+   <tag></tag>
+   <elementGuidId>897f5aa5-ab97-4b8b-bebd-042c1d9d7c5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblDetalleSolicitud']/tbody/tr/td[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tblDetalleSolicitud > tbody > tr.odd > td:nth-of-type(6)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>129b76c0-16f9-4135-9343-5d2f562b03e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblDetalleSolicitud&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[6]</value>
+      <webElementGuid>0bf399e1-e154-4163-b2c8-d358991f9474</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tblDetalleSolicitud']/tbody/tr/td[6]</value>
+      <webElementGuid>1ebbda01-d06f-495d-b859-959726740a5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/following::td[2]</value>
+      <webElementGuid>7695623f-d1de-40cc-a398-62179d461319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Docker benz - 2020'])[1]/following::td[4]</value>
+      <webElementGuid>1360aa71-5f98-40e3-943f-458f45f7374c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$40,000.00'])[1]/preceding::td[1]</value>
+      <webElementGuid>7fec03db-109b-4338-8d52-79df134910fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$47,600.00'])[1]/preceding::td[3]</value>
+      <webElementGuid>10198541-415f-4ea9-9fe5-3f05d11667a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/table/tbody/tr/td[6]</value>
+      <webElementGuid>ba6fad67-5990-4c95-84a8-9beb5cc56094</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

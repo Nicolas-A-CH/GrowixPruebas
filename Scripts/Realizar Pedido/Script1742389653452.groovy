@@ -26,7 +26,7 @@ InicioSesion iniciarSesion = new InicioSesion()
 TestObject spiner = findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/SppinerLoadPage')
 
 // Definir el usuario actual (puedes cambiarlo dinámicamente según tu caso de prueba)
-String usuario = "ClientePruebasCO"
+String usuario = "Solicitante2PruebasCO"
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
 String vinEsperado = "64687651"
 String marcaEsperada = "Docker benz - 2020"
@@ -36,7 +36,7 @@ String cantidadEsperada = "4"
 String estadoEsperado = "Sin revisar"
 
 // Definir el valor del select según el usuario
-String valorSelect = (usuario == "ClientePruebasCO") ? "3" : "86"
+String valorSelect = (usuario == "Solicitante2PruebasCO") ? "3" : "86"
 
 WebUI.openBrowser('')
 
@@ -120,12 +120,6 @@ WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1
 
 WebUI.waitForElementNotVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/Detalles_modal'), 30)
 
-WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/logo_Usuario'))
+iniciarSesion.cerrarSesion()
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/cerrar_Sesion'), 30)
-
-WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/cerrar_Sesion'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/modal_Confirmacion_Cerrar_Sesion'), 30)
-
-WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/button_Salir'))
+WebUI.closeBrowser()
