@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Especifique el nombre completo del cliente</name>
+   <name>button_Actualizar</name>
    <tag></tag>
-   <elementGuidId>dc9f2762-a3e1-4754-8c86-77b2caf9a314</elementGuidId>
+   <elementGuidId>8caee06b-6328-4f0a-bc47-c95a79caed42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='personaNatural']/div[2]/div/div/div</value>
+         <value>//table[@id='tblDetalleSolicitud']/tbody/tr/td[10]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>button.btn.btn-primary.btn-actualizar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,95 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>2f969434-9a2a-4caf-b9e2-b11ab44abcd3</webElementGuid>
+      <value>button</value>
+      <webElementGuid>b58381a9-2588-4c9f-8167-cf74b71dd943</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>invalid-feedback</value>
-      <webElementGuid>d4efb32a-f541-4f10-a453-1f1ecc4b8c99</webElementGuid>
+      <value>btn btn-primary btn-actualizar</value>
+      <webElementGuid>36c5ea3d-7d9b-489d-9684-e4c831c9c90c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id-detalle</name>
+      <type>Main</type>
+      <value>402</value>
+      <webElementGuid>e10663ac-4857-4c6c-a48f-0e4bad63f3cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Especifique el nombre completo del cliente</value>
-      <webElementGuid>373f3ffb-4b85-4ce0-8063-8a334db998ff</webElementGuid>
+      <value>Actualizar</value>
+      <webElementGuid>7ed168fb-6bba-4431-9e6d-aadafaad77a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;personaNatural&quot;)/div[@class=&quot;row g-2&quot;]/div[@class=&quot;col-6&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;invalid-feedback&quot;]</value>
-      <webElementGuid>8acd99ab-5171-4955-aafd-a43cd50d10c7</webElementGuid>
+      <value>id(&quot;tblDetalleSolicitud&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[10]/button[@class=&quot;btn btn-primary btn-actualizar&quot;]</value>
+      <webElementGuid>11623603-da43-4ecb-8931-a66e31a5b7df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='personaNatural']/div[2]/div/div/div</value>
-      <webElementGuid>2e6d33ff-0ff4-4f3c-870d-af0486480b14</webElementGuid>
+      <value>//table[@id='tblDetalleSolicitud']/tbody/tr/td[10]/button</value>
+      <webElementGuid>961565bf-eec1-4255-b742-eab8912610fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre Completo'])[1]/following::div[1]</value>
-      <webElementGuid>a53848c0-caf7-403f-ab06-d98bae0e0b9c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0.00'])[2]/following::button[1]</value>
+      <webElementGuid>5cc7962f-eb8b-468f-8949-d2ddc2eec569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione el estado del Cliente (Activo / Inactivo)'])[1]/following::div[4]</value>
-      <webElementGuid>ca367bbd-3773-4237-b527-249a391c6ac8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0.00'])[1]/following::button[1]</value>
+      <webElementGuid>141172e7-66fa-4c4b-9a0f-3182ab1e130e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciudad'])[1]/preceding::div[1]</value>
-      <webElementGuid>6489bd39-6b42-4829-927e-dd8915763a99</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries'])[1]/preceding::button[1]</value>
+      <webElementGuid>e290c5c2-54de-4cf6-9776-a8544af5b96a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Especifique la ciudad del Cliente'])[1]/preceding::div[1]</value>
-      <webElementGuid>43887cd9-b9be-4ccd-b645-4646c792483c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[2]/preceding::button[1]</value>
+      <webElementGuid>344955b0-3fe8-4313-a89a-f349565f1108</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Especifique el nombre completo del cliente']/parent::*</value>
-      <webElementGuid>2752bfad-64e5-4130-ab0a-5fb41ff68a3e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Actualizar']/parent::*</value>
+      <webElementGuid>6d704fbe-9a00-4982-b37e-6f868d25b61c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/div[2]/div/div/div</value>
-      <webElementGuid>0b96a299-f2b3-4eee-91fd-0c21f0f463c5</webElementGuid>
+      <value>//td[10]/button</value>
+      <webElementGuid>0ca42793-289f-48d7-b20f-007d0640df71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Especifique el nombre completo del cliente' or . = 'Especifique el nombre completo del cliente')]</value>
-      <webElementGuid>3faaa075-be49-4ed1-a251-c78f8ccc08b0</webElementGuid>
+      <value>//button[(text() = 'Actualizar' or . = 'Actualizar')]</value>
+      <webElementGuid>445c57ce-3ec4-4dd1-ad8b-4fe0d79dcd65</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

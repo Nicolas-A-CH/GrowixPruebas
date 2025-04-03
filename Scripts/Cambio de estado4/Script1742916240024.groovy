@@ -22,13 +22,13 @@ import org.apache.poi.ss.usermodel.ConditionType
 import org.openqa.selenium.Keys as Keys
 
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
-String usuario = "Solucionador2CO"
-String vinEsperado = "64687651"
-String marcaEsperada = "Docker benz - 2020"
-String numeroParteEsperado = "654658"
-String descripcionEsperada = "motor"
-String cantidadEsperada = "4"
-String precio = "10000"
+String usuario = "GrowixCO"
+String vinEsperado = GlobalVariable.vinEsperado
+String marcaEsperada = GlobalVariable.marcaEsperada
+String numeroParteEsperado = GlobalVariable.numeroParteEsperado
+String descripcionEsperada = GlobalVariable.descripcionEsperada
+String cantidadEsperada = GlobalVariable.cantidadEsperada
+String precio = GlobalVariable.precio
 
 WebUI.openBrowser('')
 
@@ -70,10 +70,12 @@ WebUI.verifyMatch(numeroParteActual, numeroParteEsperado, false)
 WebUI.verifyMatch(descripcionActual, descripcionEsperada, false)
 WebUI.verifyMatch(cantidadActual, cantidadEsperada, false)
 
+WebUI.scrollToElement(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Entrega Estimada'), 3)
+
 WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Entrega Estimada'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione.                         _05f498'), 
-    '6', true)
+    '9', true)
 
 WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/button_Actualizar estado'))
 
@@ -104,7 +106,7 @@ InicioSesion.cerrarSesion()
 
 InicioSesion.inicioSesionDinamico(usuario)
 
-CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(7)
+CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(10)
 
 InicioSesion.cerrarSesion()
 
@@ -116,7 +118,7 @@ InicioSesion.cerrarSesion()
 
 InicioSesion.inicioSesionDinamico(usuario)
 
-CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(8)
+CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(11)
 
 InicioSesion.cerrarSesion()
 
@@ -128,7 +130,7 @@ InicioSesion.cerrarSesion()
 
 InicioSesion.inicioSesionDinamico(usuario)
 
-CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(9)
+CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(12)
 
 InicioSesion.cerrarSesion()
 

@@ -6,12 +6,11 @@
    <elementGuidId>6c2c06e8-78dd-4882-85a9-127bdfae83fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[@id='irMenu'])[5]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@id='irMenu'])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4fdfaa1d-d070-4801-992d-5f5645650d95</webElementGuid>
+      <webElementGuid>969de132-f11a-46d4-9e5f-5e46ee10af37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>irMenu</value>
-      <webElementGuid>02907d92-93e2-458a-9e66-df732c41867e</webElementGuid>
+      <webElementGuid>4b12a847-3a6f-4b19-87fd-ad7182729143</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link </value>
-      <webElementGuid>129e6c3a-3252-4f4c-9827-deeb2693633a</webElementGuid>
+      <webElementGuid>00348be3-1edc-465c-b333-11d10bd49f35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>javascript:actualizaVariableCodmodulo('../jsp/solucionador/solicitudesAprobadas.jsp')</value>
-      <webElementGuid>f7d7a6a7-96d0-4eae-b4e0-673bd0874ccb</webElementGuid>
+      <webElementGuid>928c670d-a48f-4fb3-b444-ca498b845149</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:irmenu('102','/sales-orders/jsp/../jsp/solucionador/solicitudesAprobadas.jsp')</value>
-      <webElementGuid>08fc6156-e468-4f8f-9709-9446f4d32897</webElementGuid>
+      <webElementGuid>d28235d0-9342-483c-af67-65f11ec0c5a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Solicitudes Aprobadas</value>
-      <webElementGuid>91f4da01-d919-44c3-a991-c71a3ce89b0f</webElementGuid>
+      <webElementGuid>b6c51df3-8fcb-4249-b2a8-1b044ce4ca51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarVerticalNav&quot;)/li[@class=&quot;nav-item&quot;]/ul[@id=&quot;events3&quot;]/li[@class=&quot;nav-item&quot;]/a[@id=&quot;irMenu&quot;]</value>
-      <webElementGuid>982a3e7a-1dbc-43bb-b831-23758d49761a</webElementGuid>
+      <webElementGuid>d4620aa8-78cd-469f-a441-535f20311797</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@id='irMenu'])[2]</value>
-      <webElementGuid>7df3bf84-e3b2-4a2f-8063-87745870eea3</webElementGuid>
+      <webElementGuid>b14c4e12-2ae6-4d92-b6e9-39f010300bee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//ul[@id='events3']/li/a[2])[2]</value>
-      <webElementGuid>c6efbfe5-2606-4bf0-b068-2ea032a91fee</webElementGuid>
+      <webElementGuid>f5a89105-cc45-4e7b-88fe-7cd37f781fca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Solicitudes Aprobadas')]</value>
-      <webElementGuid>e0aa8667-4068-4c1a-9444-70b7b2c706a5</webElementGuid>
+      <webElementGuid>cae11036-5536-4430-922d-fee936c7bc0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes Recibidas'])[1]/following::a[2]</value>
-      <webElementGuid>d4660dee-140f-496c-8c9a-63abce91d41f</webElementGuid>
+      <webElementGuid>15ca0c97-8a2c-499a-8001-de2a42dd7ed6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Growix Finder'])[1]/following::a[4]</value>
-      <webElementGuid>89fa8c65-17cd-4ecc-bc81-34cf5b98d0f6</webElementGuid>
+      <webElementGuid>315fac49-f03d-4cc8-afab-e89ceb1c4ec7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes Enviadas'])[1]/preceding::a[2]</value>
-      <webElementGuid>854e0d9b-5c2b-4789-b4a8-c1ceb91de52c</webElementGuid>
+      <webElementGuid>5f9de09e-4930-484b-98de-5c57afd26cc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar'])[1]/preceding::a[4]</value>
-      <webElementGuid>80548de3-12ae-4b15-9f8f-fdde9639e7a5</webElementGuid>
+      <webElementGuid>3155c10b-6709-4a89-b198-d571ba930954</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Solicitudes Aprobadas']/parent::*</value>
-      <webElementGuid>aa85089d-11c5-4e92-9372-097dd9f1f420</webElementGuid>
+      <webElementGuid>773c82de-ef02-49d3-8b84-96d0c4aade0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +142,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, &quot;javascript:irmenu('102','/sales-orders/jsp/../jsp/solucionador/solicitudesAprobadas.jsp')&quot;)]</value>
-      <webElementGuid>2f8d6508-6a77-441e-8483-a4e7f242ecde</webElementGuid>
+      <webElementGuid>61259022-d1ae-4b75-80aa-e41ba62d3597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[2]/li/a[2]</value>
-      <webElementGuid>24f16efe-32fd-4ac4-8ebe-137161ae104a</webElementGuid>
+      <webElementGuid>1f9db9ba-33e8-4541-acd9-7c1a82847a2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'irMenu' and @href = concat(&quot;javascript:irmenu(&quot; , &quot;'&quot; , &quot;102&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/sales-orders/jsp/../jsp/solucionador/solicitudesAprobadas.jsp&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Solicitudes Aprobadas' or . = 'Solicitudes Aprobadas')]</value>
-      <webElementGuid>b8a50d7e-52a8-42aa-a106-925fce107a24</webElementGuid>
+      <webElementGuid>67e16ffd-e66a-4ab5-b263-974fd4422231</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Selecciona su estado                _6bf873</name>
+   <tag></tag>
+   <elementGuidId>167b2ac2-b5e3-4c81-876b-4833c7cb43c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='activo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#activo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>86514beb-2720-459a-bc05-b666e380a17d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select</value>
+      <webElementGuid>e6dea084-2009-4a3c-b71c-a30036056ed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>activo</value>
+      <webElementGuid>5bdb4cbf-4e49-44db-b4f7-e0ace4d1352d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>activo</value>
+      <webElementGuid>57b8eef1-e826-44b6-9699-21352416fe79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-options</name>
+      <type>Main</type>
+      <value>{&quot;removeItemButton&quot;:true,&quot;placeholder&quot;:false}</value>
+      <webElementGuid>326e4662-a4f8-49fb-a7a6-254b647d97d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Selecciona su estado
+                                            Activo
+                                            No Activo
+                                        </value>
+      <webElementGuid>2d25f3a1-ff8c-4c7e-b8af-6131791e3a9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;activo&quot;)</value>
+      <webElementGuid>8faaa234-a13c-45c7-a6f8-6b391ebf26b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='activo']</value>
+      <webElementGuid>1b7152e4-3061-4446-8e96-ca23e3871d2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frm']/div[3]/div[2]/div/select</value>
+      <webElementGuid>fc5470d2-6f49-4858-b4aa-acbd9fc54bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo:'])[1]/following::select[1]</value>
+      <webElementGuid>49cf61eb-0176-435e-987a-a6f9e16b2259</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Escriba el nombre para este Usuario (sin espacios).'])[1]/following::select[1]</value>
+      <webElementGuid>ee144de8-224f-44bd-8303-f23ae55f33a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione el estado del usuario (Activo / Inactivo)'])[1]/preceding::select[1]</value>
+      <webElementGuid>cd2a2e9a-4a58-46d1-891d-8549b5b62ba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contraseña:'])[1]/preceding::select[1]</value>
+      <webElementGuid>dade887a-b11d-4338-825f-e5d564bb4ffd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/select</value>
+      <webElementGuid>fba93ce6-dacf-4f56-ab76-8a2d2f15b993</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'activo' and @id = 'activo' and (text() = '
+                                            Selecciona su estado
+                                            Activo
+                                            No Activo
+                                        ' or . = '
+                                            Selecciona su estado
+                                            Activo
+                                            No Activo
+                                        ')]</value>
+      <webElementGuid>a2cb0419-6d09-4ee2-a647-8d836ff7d495</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

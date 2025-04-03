@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Guardar</name>
+   <name>button_Aceptar</name>
    <tag></tag>
-   <elementGuidId>b6fee4bf-43e5-4533-ab24-272a5f6e1bb9</elementGuidId>
+   <elementGuidId>f30398e0-4457-4945-b228-6b252c36556d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[10]</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.swal2-confirm.btn.btn-falcon-primary.me-1.mb-1</value>
+         <value>button.swal2-confirm.swal2-styled</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f8f3eca0-a452-449b-98db-3336a41ec5a3</webElementGuid>
+      <webElementGuid>e355d54e-408b-4fef-91cf-939b0e2748b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,63 +31,63 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>271fc23e-4b01-4102-9d86-047da1b889b7</webElementGuid>
+      <webElementGuid>3b1c1ad3-4999-45ac-872a-9ef7d32950f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>swal2-confirm btn btn-falcon-primary me-1 mb-1</value>
-      <webElementGuid>662213ee-452a-4f7e-89ab-ba49aa75fa38</webElementGuid>
+      <value>swal2-confirm swal2-styled</value>
+      <webElementGuid>901e7ac5-742f-4e49-8af5-423caf6a604f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Guardar</value>
-      <webElementGuid>ef1305bc-2b71-4474-8244-c593cace8eba</webElementGuid>
+      <value>Aceptar</value>
+      <webElementGuid>1e79e884-ea6e-49ee-ae83-050becb223e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;chrome windows fontawesome-i2svg-active fontawesome-i2svg-complete swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal alertaBasicaAsonac-container swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm btn btn-falcon-primary me-1 mb-1&quot;]</value>
-      <webElementGuid>5bf98970-8cf4-4c8c-8543-2a01b9b6d9c8</webElementGuid>
+      <value>/html[@class=&quot;chrome windows fontawesome-i2svg-active fontawesome-i2svg-complete swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-success swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm swal2-styled&quot;]</value>
+      <webElementGuid>8d3c405e-61ce-429a-8e42-878a17e1d20e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[10]</value>
-      <webElementGuid>f2deb651-9013-4b3b-9cd8-2f12a283e5d3</webElementGuid>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>98b8227c-5591-4316-8b22-53899ba65331</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Guardar cambios?'])[1]/following::button[1]</value>
-      <webElementGuid>c53d6003-d419-4c61-bc86-a8ca3a875c24</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total de filas:'])[1]/following::button[1]</value>
+      <webElementGuid>b51c69a1-1a7a-4319-a11e-65ed33255b96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
-      <webElementGuid>e86cf366-e8bd-4712-b17a-1b3fa029594e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filas insertadas:'])[1]/following::button[1]</value>
+      <webElementGuid>94eb8ca3-e1f2-42aa-a314-4111bc3f0bb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/preceding::button[1]</value>
-      <webElementGuid>0dd6949d-a91d-43dd-a659-a6672a6104ca</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
+      <webElementGuid>847c6518-f420-4975-97a8-ee92ab07e9c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,15 +95,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[2]</value>
-      <webElementGuid>d292a370-4a66-4d3c-9dfc-b3fde60441fa</webElementGuid>
+      <webElementGuid>9c5dffce-d5ad-498d-b722-5bc6214420df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
-      <webElementGuid>cf93f8f3-0de9-471c-811a-4319d3830249</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
+      <webElementGuid>259bac2b-3a2b-4ea1-9be9-d8664216dee4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,22 +111,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button</value>
-      <webElementGuid>0e9ad9da-6734-448b-aa78-f2a483d83110</webElementGuid>
+      <webElementGuid>4cc7ca51-e406-496d-beb0-3561c28e705e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Guardar' or . = 'Guardar')]</value>
-      <webElementGuid>6eee6bf6-58d1-4bb7-8bc2-913387c262d7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>2d5e6834-3b28-4986-89eb-bd2dc1f14526</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      <webElementGuid>afc01cc0-cd12-49d8-9e48-6d626748fb7b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

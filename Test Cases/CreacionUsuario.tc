@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Realizar pedido excel</name>
+   <name>CreacionUsuario</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>253a701b-7213-414f-a29e-80b997862322</testCaseGuid>
+   <testCaseGuid>502a6f14-f4dd-481a-9dec-673687c0293d</testCaseGuid>
 </TestCaseEntity>

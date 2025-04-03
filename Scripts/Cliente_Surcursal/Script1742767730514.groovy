@@ -31,24 +31,36 @@ WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales 
 
 WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/a_Crear Cliente'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione el Pas.                  _20c8cd'), 
-    '1', true)
+WebUI.waitForElementVisible(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione el Pas.                  _20c8cd'), 10)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione el Pas.                  _20c8cd'), 10)
+
+int attempts = 0
+while(attempts < 3) {
+    try {
+        WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione el Pas.                  _20c8cd'), '1', true)
+        break
+    } catch (Exception e) {
+        attempts++
+        WebUI.delay(2)
+    }
+}
 
 WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Crear cliente'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Selecciona.                         _b56a15'), 10)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Selecciona.                         _b56a15'), 
     'Cliente', true)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Documento de identificacin_documento__67a552'), 
-    '100000')
+    '100001')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Selecciona su estado                _5dd4ee'), 
     '1', true)
 
-WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/div_Especifique el nombre completo del cliente'))
-
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Nombre Completo_razon_social'), 
-    'PepitoPerez')
+    'DonPedro')
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Ciudad_ciudad'), 
     'Bogotá - BOGOTÁ')
@@ -62,13 +74,8 @@ WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sale
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Telfono_tel'), 
     '333333')
 
-WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Direccin del Cliente_direccion'), 
-    'Calle Siempre viva 145')
-
-WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Tipo_tipo'))
-
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Tipo_tipo'), 
-    'indolke')
+    'sobre natural')
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Correo electrnico_correo'), 
     'pruebas@Idl.com')
@@ -76,11 +83,19 @@ WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sale
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Correo Factura Electronica_correoFactura'), 
     'pruebas@Idl.com')
 
+WebUI.scrollToElement(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar Cambios'), 5)
+
 WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar Cambios'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar'), 10)
 
 WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar'))
 
-WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/div_Guardado con xitoOKNoCancel'))
+//WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/div_Guardado con xitoOKNoCancel'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Crear nueva sucursal'), 5)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Crear nueva sucursal'), 10)
 
 WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Crear nueva sucursal'))
 
@@ -112,6 +127,3 @@ WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales 
 WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar_1'))
 
 WebUI.click(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/div__swal2-success-circular-line-left'))
-
-WebUI.closeBrowser()
-

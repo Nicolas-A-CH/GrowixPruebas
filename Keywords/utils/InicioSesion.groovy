@@ -22,15 +22,28 @@ import internal.GlobalVariable
 
 public class InicioSesion {
 
+	// Mapa de usuarios y sus contraseñas encriptadas
+	private static final Map<String, String> USER_PASSWORDS = [
+		'admin': 'xSRDNOoyrpnhrpRgLrbWJA==',
+		// Agrega otros usuarios y contraseñas aquí
+		'default': 'c4HiwZztlarfDaH0rnJD6g==' // Contraseña por defecto
+	]
+
 	static void inicioSesionDinamico(String nameUsuario) {
+		// Obtener la contraseña correspondiente al usuario
+		String encryptedPassword = USER_PASSWORDS.getOrDefault(nameUsuario, USER_PASSWORDS['default'])
 		WebUI.click(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/a_Ingresar'))
 		WebUI.setText(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/input_Login_username'), nameUsuario)
-		WebUI.setEncryptedText(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/input_Login_password'), 'c4HiwZztlarfDaH0rnJD6g==')
+		WebUI.setEncryptedText(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/input_Login_password'), encryptedPassword)
 		WebUI.click(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders/button_Ingresar'))
 
 		waitForSpinnerToDisappear()
 
-		if (WebUI.waitForElementVisible(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"), 10, FailureHandling.OPTIONAL)) {
+		// Verificación optimizada de sesión existente
+		def sessionWarning = findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos")
+    
+	    // Usamos verifyElementPresent que es más rápido para verificar existencia sin esperar el timeout completo
+	    if (WebUI.waitForElementVisible(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"), 5, FailureHandling.OPTIONAL)) {
 			WebUI.click(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"))
 		}
 
@@ -49,6 +62,8 @@ public class InicioSesion {
 	}
 
 	static void cerrarSesion() {
+		WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/logo_Usuario'), 20)
+
 		WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/logo_Usuario'))
 
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/a_Salir'), 30)

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Seleccione el clienteSeleccione el clie_d9aca7</name>
+   <tag></tag>
+   <elementGuidId>31174ecd-fade-4bdd-9d5e-8729a1ad6e33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='top']/div/div/div[4]/form/div/div[3]/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.choices__inner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a4d9fbc-a151-4ea7-827a-03ee242343af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>choices__inner</value>
+      <webElementGuid>0117b2f3-4c58-4e9b-be9b-645adeba8c47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Seleccione el cliente!Seleccione el cliente!Remove item</value>
+      <webElementGuid>9ee3bf01-294e-4685-a317-431108b71d6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;card mb-3 mt-3&quot;]/form[1]/div[@class=&quot;container mt-5&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-md-7&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;choices&quot;]/div[@class=&quot;choices__inner&quot;]</value>
+      <webElementGuid>c7743f2d-cccd-4697-8d95-e2619779287d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='top']/div/div/div[4]/form/div/div[3]/div[2]/div/div/div</value>
+      <webElementGuid>e4a21a64-216a-4615-8086-92908aa33513</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clientes:'])[1]/following::div[2]</value>
+      <webElementGuid>934f4d5a-600b-4502-bb9d-c3f20141dc10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='País:'])[1]/following::div[4]</value>
+      <webElementGuid>8437d062-2ec0-421e-9f1f-4b177bfccc97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div</value>
+      <webElementGuid>c6affd6e-b73b-4375-aac4-8ae0570c53c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Seleccione el cliente!Seleccione el cliente!Remove item' or . = 'Seleccione el cliente!Seleccione el cliente!Remove item')]</value>
+      <webElementGuid>c3c174cf-4b17-4e00-b81c-a965f404c3fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

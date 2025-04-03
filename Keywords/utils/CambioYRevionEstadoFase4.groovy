@@ -21,29 +21,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CambioYRevionEstadoFase4 {
-	
+
 	static void navegarAprobadasYCambiarEstado(int valorEstado) {
-		
+
 		WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/a_Growix Finder'))
 		WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/a_Solicitudes Aprobadas'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Entrega Estimada'), 5)
 		WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Entrega Estimada'))
 		WebUI.selectOptionByValue(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione.                         _05f498'),
-			valorEstado.toString(), true)
+				valorEstado.toString(), true)
 		WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/button_Actualizar estado'))
 		if (valorEstado == 6 ) {
-		
+
 			WebUI.setText(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Nmero de pedido requerido_npedidoInput'),
-				'133')
-			
+					'133')
+
 			WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/button_Actualizar'))
 		}
 		WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/button_Aceptar'))
 	}
-	
+
 	static void verificarEstadoSolicitud(String estadoEsperado) {
 		WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/a_Mis Solicitudes Growix'))
-		WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/a_Solicitudes Tracking'))
-		
+		if (estadoEsperado == "Entregado") {
+			WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/a_Mis Solicitudes Cerradas'))
+		} else {
+			WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/a_Solicitudes Tracking'))
+		}
 		TestObject estadoTracking = findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/td_EstadoTracking')
 		String textoEstado = WebUI.getText(estadoTracking)
 		WebUI.verifyMatch(textoEstado, estadoEsperado, false)

@@ -25,12 +25,12 @@ InicioSesion iniciarSesion = new InicioSesion()
 
 String usuario = "Solicitante2PruebasCO"
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
-String vinEsperado = "64687651"
-String marcaEsperada = "Docker benz - 2020"
-String numeroParteEsperado = "654658"
-String descripcionEsperada = "motor"
-String cantidadEsperada = "4"
-String precio = "10000"
+String vinEsperado = GlobalVariable.vinEsperado
+String marcaEsperada = GlobalVariable.marcaEsperada
+String numeroParteEsperado = GlobalVariable.numeroParteEsperado
+String descripcionEsperada = GlobalVariable.descripcionEsperada
+String cantidadEsperada = GlobalVariable.cantidadEsperada
+String precio = GlobalVariable.precio
 
 WebUI.openBrowser('')
 

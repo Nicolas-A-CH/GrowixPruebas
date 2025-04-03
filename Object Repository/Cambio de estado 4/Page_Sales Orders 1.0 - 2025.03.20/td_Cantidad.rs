@@ -6,12 +6,12 @@
    <elementGuidId>ed90abec-3b62-4a8f-8483-0aba8425ee98</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td:nth-of-type(17)</value>
+         <key>XPATH</key>
+         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[16]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[17]</value>
+         <key>CSS</key>
+         <value>td:nth-of-type(17)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>bca6c366-b2bc-486a-a3fc-0cc3c37b3340</webElementGuid>
+      <webElementGuid>9d6c21c7-ae67-40fb-a59c-a04ea8643312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>babd69bf-ec42-4a6b-9668-c8cd9085bc7e</webElementGuid>
+      <webElementGuid>4286c32d-cbb1-40a8-bfa4-2e2223fe8552</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tblSolicitudesPendientes&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[17]</value>
-      <webElementGuid>f9074bbb-8158-4147-ae17-f81cb47f51e9</webElementGuid>
+      <webElementGuid>6430ac93-5de5-4879-a448-9546325ecb54</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[17]</value>
-      <webElementGuid>46341dff-c258-4af2-a3f1-4a5b7cc3b4c1</webElementGuid>
+      <webElementGuid>70b175c3-5891-44a2-9f51-966056d76b66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/following::td[1]</value>
-      <webElementGuid>dc3ff2a1-d006-4715-98b1-92bf481b9e06</webElementGuid>
+      <webElementGuid>29a55fd9-55af-45fb-a071-1ea0fa80b57a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Docker benz - 2020'])[1]/following::td[3]</value>
-      <webElementGuid>504083bb-d30e-4743-9c89-3314ba5ceb6a</webElementGuid>
+      <webElementGuid>f7b1d655-ad32-4f3e-b394-6422c08e6937</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$11,000.00'])[1]/preceding::td[1]</value>
-      <webElementGuid>64c5bd68-8ea6-401b-9b10-d1d15a9a0eaf</webElementGuid>
+      <webElementGuid>26618279-e291-4f4e-a238-b4c2424878d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pedido aprobado'])[2]/preceding::td[5]</value>
-      <webElementGuid>b1c5f3c6-97e3-46e2-b8be-cf9e34660460</webElementGuid>
+      <webElementGuid>f1b329d1-7243-4b6e-95df-fc4bb7476455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='4']/parent::*</value>
-      <webElementGuid>6a2543dc-4536-4588-85e3-3340c1a00738</webElementGuid>
+      <webElementGuid>d2373d03-3466-4ed1-8876-7f56ba4139a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[17]</value>
-      <webElementGuid>49a40183-9267-4f6d-941d-bc8d7dfdf679</webElementGuid>
+      <webElementGuid>51d93d48-9b34-4768-ad59-5ff82685763d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '4' or . = '4')]</value>
-      <webElementGuid>bb8dfdbc-ab41-49d0-b341-8888b176bd7c</webElementGuid>
+      <webElementGuid>38a32e0b-5b2d-4884-9757-1a50b67ed68c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

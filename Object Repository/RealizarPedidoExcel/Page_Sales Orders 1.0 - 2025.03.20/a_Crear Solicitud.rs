@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Solicitudes Tracking</name>
+   <name>a_Crear Solicitud</name>
    <tag></tag>
-   <elementGuidId>e2dd95d1-4f51-47ed-af20-f4ce683d71b1</elementGuidId>
+   <elementGuidId>1641a495-cb01-4dbf-a4ee-2d1dc8df1339</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@id='irMenu'])[2]</value>
+         <value>//a[@id='irMenu']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#irMenu</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d87accee-89c6-4edd-ae80-b6205ef5dedf</webElementGuid>
+      <webElementGuid>f2eef5e3-566d-4f78-ba91-2100377a9656</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>irMenu</value>
-      <webElementGuid>9361eda4-1715-4fe6-a887-3e8821acddf0</webElementGuid>
+      <webElementGuid>c3c81ba7-732b-4f8c-9f6a-cbe9bbc2dae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,31 +39,31 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link </value>
-      <webElementGuid>8a29d478-74ca-412d-a013-fd34595926da</webElementGuid>
+      <webElementGuid>7dd1472f-0bf1-4f77-8d1f-0c685234cfc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>javascript:actualizaVariableCodmodulo('../jsp/tracking/solicitudesTracking.jsp')</value>
-      <webElementGuid>31f30629-cada-4277-85a5-8faded1573b9</webElementGuid>
+      <value>javascript:actualizaVariableCodmodulo('../jsp/cliente/creaSolicitud.jsp')</value>
+      <webElementGuid>dae10bd5-ea95-4245-acb2-9b2ca1fd27fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:irmenu('104','/sales-orders/jsp/../jsp/tracking/solicitudesTracking.jsp')</value>
-      <webElementGuid>b32cc936-ac42-4fc3-93e5-18bc09be48c2</webElementGuid>
+      <value>javascript:irmenu('1','/sales-orders/jsp/../jsp/cliente/creaSolicitud.jsp')</value>
+      <webElementGuid>d1e76720-34d2-4aac-af52-80def8862cd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Solicitudes Tracking</value>
-      <webElementGuid>7581f5bc-fb69-45ca-8409-8eccb7d642cf</webElementGuid>
+      <value>Crear Solicitud</value>
+      <webElementGuid>e5760123-b14b-497a-93c7-300fb547fb89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,94 +71,94 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarVerticalNav&quot;)/li[@class=&quot;nav-item&quot;]/ul[@id=&quot;events15&quot;]/li[@class=&quot;nav-item&quot;]/a[@id=&quot;irMenu&quot;]</value>
-      <webElementGuid>7682e9d3-03ce-4670-9dbc-136ff25d02fe</webElementGuid>
+      <webElementGuid>3c518ce9-5342-476c-833b-64b84319df4e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//a[@id='irMenu'])[4]</value>
-      <webElementGuid>77d44f58-6e18-441f-add8-788bca25283c</webElementGuid>
+      <value>//a[@id='irMenu']</value>
+      <webElementGuid>f6ded5f0-a695-4549-9642-4b96367000d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//ul[@id='events15']/li/a[2])[4]</value>
-      <webElementGuid>4b4f024b-9c4a-4449-9de1-5ad586460fc5</webElementGuid>
+      <value>//ul[@id='events15']/li/a[2]</value>
+      <webElementGuid>cc40fb75-c43d-4a89-8cc2-e4d8efced10b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Solicitudes Tracking')]</value>
-      <webElementGuid>54201441-d086-40b9-8be7-cc2972598534</webElementGuid>
+      <value>//a[contains(text(),'Crear Solicitud')]</value>
+      <webElementGuid>a52b72c8-d7fb-49aa-96ec-1b85f149d6d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Solicitudes Cotizadas'])[1]/following::a[2]</value>
-      <webElementGuid>2b42bacc-c248-4011-be50-411459a39038</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Solicitudes Growix'])[1]/following::a[2]</value>
+      <webElementGuid>e4d07a19-87f6-45b3-954e-1ec6d00a096b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Solicitudes Pendientes'])[1]/following::a[4]</value>
-      <webElementGuid>8965eda5-17fa-4dec-9ee4-3287a79bc72c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menú'])[1]/following::a[3]</value>
+      <webElementGuid>a95226fc-6ce9-4cab-b37b-1b18f0e83366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar'])[1]/preceding::a[2]</value>
-      <webElementGuid>abc37499-dc2c-4fac-97d3-7672566a1737</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes Tracking'])[1]/preceding::a[2]</value>
+      <webElementGuid>53953e51-842a-4d20-aa89-6a99f4235018</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear Solicitud'])[2]/preceding::a[3]</value>
-      <webElementGuid>ed0943b6-12bf-444e-b77b-a0edbaaf3ca2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Solicitudes Cotizadas'])[1]/preceding::a[4]</value>
+      <webElementGuid>e32e74fb-530b-42fb-a0d7-48d714cf83a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Solicitudes Tracking']/parent::*</value>
-      <webElementGuid>3a465a13-6b72-4143-a19b-875a2d47041f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Crear Solicitud']/parent::*</value>
+      <webElementGuid>dac38171-90c5-4c2d-9645-4cef75adf17a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, &quot;javascript:irmenu('104','/sales-orders/jsp/../jsp/tracking/solicitudesTracking.jsp')&quot;)]</value>
-      <webElementGuid>dc3daee3-0b15-4d02-93a3-8f68bedb4d31</webElementGuid>
+      <value>//a[contains(@href, &quot;javascript:irmenu('1','/sales-orders/jsp/../jsp/cliente/creaSolicitud.jsp')&quot;)]</value>
+      <webElementGuid>96604c20-98d5-44c7-9e78-dbb3c907a820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[4]/li/a[2]</value>
-      <webElementGuid>223f95d7-1ca4-460a-8f2c-2033a5e8c7bb</webElementGuid>
+      <value>//a[2]</value>
+      <webElementGuid>58a1bfba-30e1-4c32-8c19-bdfc9055034d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'irMenu' and @href = concat(&quot;javascript:irmenu(&quot; , &quot;'&quot; , &quot;104&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/sales-orders/jsp/../jsp/tracking/solicitudesTracking.jsp&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Solicitudes Tracking' or . = 'Solicitudes Tracking')]</value>
-      <webElementGuid>8a7a4abb-7504-4703-9ff1-c9aa737a47c0</webElementGuid>
+      <value>//a[@id = 'irMenu' and @href = concat(&quot;javascript:irmenu(&quot; , &quot;'&quot; , &quot;1&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/sales-orders/jsp/../jsp/cliente/creaSolicitud.jsp&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Crear Solicitud' or . = 'Crear Solicitud')]</value>
+      <webElementGuid>e1a84210-82e7-4ae4-8164-df9bca6ebea5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

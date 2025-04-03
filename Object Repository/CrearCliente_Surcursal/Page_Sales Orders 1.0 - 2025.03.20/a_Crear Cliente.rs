@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@id='irMenu'])[2]</value>
+         <value>(//a[@id='irMenu'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b520482c-5162-4e7b-bb56-70e14829828b</webElementGuid>
+      <webElementGuid>d1b1effa-56b4-41a4-b9fb-f4015b64a97b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>irMenu</value>
-      <webElementGuid>c05e1296-e3d0-4cf3-b46c-5d00e0f9a819</webElementGuid>
+      <webElementGuid>880afa60-cd0d-43ba-b176-3532aef52ec1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link </value>
-      <webElementGuid>1e684ea7-00a6-4114-9f27-c57a517bd6f0</webElementGuid>
+      <webElementGuid>56ccde28-31d1-4dd6-bad5-bd1f8a06f197</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>javascript:actualizaVariableCodmodulo('listadoDealers.jsp')</value>
-      <webElementGuid>e1eefb77-d4bc-4a1e-b183-51fd04703d3d</webElementGuid>
+      <webElementGuid>89324a68-08b1-4b25-a286-d6cecf93a1f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:irmenu('9','/sales-orders/jsp/listadoDealers.jsp')</value>
-      <webElementGuid>273e206a-dc0c-4012-a3fc-599588046710</webElementGuid>
+      <webElementGuid>b39d1e3d-3bb8-4415-80b7-264d94b60db3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Crear Cliente</value>
-      <webElementGuid>69ac8167-e27d-4e12-911c-a2ecd211fc8f</webElementGuid>
+      <webElementGuid>bd6db21d-6fd2-4af9-ac67-14be46e96056</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarVerticalNav&quot;)/li[@class=&quot;nav-item&quot;]/ul[@id=&quot;events1&quot;]/li[@class=&quot;nav-item&quot;]/a[@id=&quot;irMenu&quot;]</value>
-      <webElementGuid>93b5d2bf-a072-4024-982e-94a3bd438294</webElementGuid>
+      <webElementGuid>c03a590e-19be-40c9-9e7e-39022aea1beb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@id='irMenu'])[2]</value>
-      <webElementGuid>bd3a5235-74f3-4b83-9337-e03c2cc0a534</webElementGuid>
+      <webElementGuid>fab36359-5927-4c95-8218-4c1b2a3e3beb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//ul[@id='events1']/li/a[2])[2]</value>
-      <webElementGuid>b8e8e42e-42e1-4b59-8023-1f1b9ec26d48</webElementGuid>
+      <webElementGuid>584ea01d-380f-4a06-965c-05df907a1233</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Crear Cliente')]</value>
-      <webElementGuid>9ae1dfb4-5629-4006-8022-a4fa3f561443</webElementGuid>
+      <webElementGuid>be0c64bd-6a72-4c60-9ff5-5ae996b6d6b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear Usuarios'])[1]/following::a[2]</value>
-      <webElementGuid>6376a11b-fc8e-4374-9b77-c653b89c8ca7</webElementGuid>
+      <webElementGuid>c3e35f2e-0cfb-495b-ac42-d7e04ebdf639</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrador'])[1]/following::a[4]</value>
-      <webElementGuid>13650203-61fb-4a23-a12a-b8845140c59b</webElementGuid>
+      <webElementGuid>b80d0b4b-044a-47e0-9aed-d3a86111bab0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Solicitudes Growix'])[1]/preceding::a[1]</value>
-      <webElementGuid>44a45e39-e6f3-483b-b017-27e7a4a6fb33</webElementGuid>
+      <webElementGuid>3f6eec00-84d6-4ecd-9e1e-2bbf19890894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear Solicitud'])[1]/preceding::a[3]</value>
-      <webElementGuid>cca43b35-d5c6-4aab-8ad5-0be093ff7049</webElementGuid>
+      <webElementGuid>9c38856c-488a-4877-8f40-26c451cf8844</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Crear Cliente']/parent::*</value>
-      <webElementGuid>bc3233bc-3b0b-48d5-8346-ea6084e864d7</webElementGuid>
+      <webElementGuid>05afd131-8a71-4458-9f2e-3b7e9b54e868</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +142,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, &quot;javascript:irmenu('9','/sales-orders/jsp/listadoDealers.jsp')&quot;)]</value>
-      <webElementGuid>4b3446a3-3cc3-4628-8a5d-ba74b15452ec</webElementGuid>
+      <webElementGuid>f653c50d-ee58-49bb-bb3b-3768e48d5d93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[2]/li/a[2]</value>
-      <webElementGuid>bc4a12ef-5dc6-49c5-9802-afb1f76f6b9b</webElementGuid>
+      <webElementGuid>ee0ebbfb-c5eb-4ae0-a281-ed978cce712c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'irMenu' and @href = concat(&quot;javascript:irmenu(&quot; , &quot;'&quot; , &quot;9&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/sales-orders/jsp/listadoDealers.jsp&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Crear Cliente' or . = 'Crear Cliente')]</value>
-      <webElementGuid>adad15ee-1ae9-46d6-91cb-4acf7cf657d1</webElementGuid>
+      <webElementGuid>1a2b8e03-095b-4a55-9bae-5ac34bd5e7fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

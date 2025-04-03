@@ -28,15 +28,15 @@ TestObject spiner = findTestObject('Object Repository/RealizarPedido/Page_Sales 
 // Definir el usuario actual (puedes cambiarlo dinámicamente según tu caso de prueba)
 String usuario = "Solicitante2PruebasCO"
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
-String vinEsperado = "64687651"
-String marcaEsperada = "Docker benz - 2020"
-String numeroParteEsperado = "654658"
-String descripcionEsperada = "motor"
-String cantidadEsperada = "4"
+String vinEsperado = GlobalVariable.vinEsperado
+String marcaEsperada = GlobalVariable.marcaEsperada
+String numeroParteEsperado = GlobalVariable.numeroParteEsperado
+String descripcionEsperada = GlobalVariable.descripcionEsperada
+String cantidadEsperada = GlobalVariable.cantidadEsperada
 String estadoEsperado = "Sin revisar"
 
 // Definir el valor del select según el usuario
-String valorSelect = (usuario == "Solicitante2PruebasCO") ? "3" : "86"
+String valorSelect = (usuario == "Solicitante2PruebasCO") ? "20" : "86"
 
 WebUI.openBrowser('')
 
