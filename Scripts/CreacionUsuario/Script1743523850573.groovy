@@ -18,6 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import groovy.json.StringEscapeUtils
 import internal.GlobalVariable as GlobalVariable
 import utils.InicioSesion
+import utils.SeleccionSurcursal
 
 import org.apache.poi.ss.usermodel.ConditionType
 import org.openqa.selenium.Keys as Keys
@@ -25,15 +26,17 @@ import org.openqa.selenium.Keys as Keys
 // Configuración de tipos de usuario
 def userTypes = [
 	'SOLUCIONADOR': [
-		perfil: '2', // Gestor Growix
-		atiendeCasos: '1', // Sí
-		checkbox: '(//input[@name="cCodMenu"])[2]',
-		nameVisible: 'SOLUCIONADOR'
-	],
+        perfil: '2', 
+        atiendeCasos: '1', 
+        checkbox: "//table[contains(@class, 'table-bordered')]/tbody/tr[3]/td[2]//input[@type='checkbox']",
+		checkbox2: "//table[contains(@class, 'table-bordered')]/tbody/tr[4]/td[2]//input[@type='checkbox']",
+        nameVisible: 'SOLUCIONADOR'
+    ],
 	'SOLICITANTE': [
 		perfil: '0', // Valor para solicitante
 		atiendeCasos: '0', // No
-		checkbox: '(//input[@name="cCodMenu"])[3]',
+		checkbox: "//table[contains(@class, 'table-bordered')]/tbody/tr[2]/td[2]//input[@type='checkbox']",
+		checkbox2: "//table[contains(@class, 'table-bordered')]/tbody/tr[5]/td[2]//input[@type='checkbox']",
 		nameVisible: 'SOLICITANTE'
 	]
 ]
@@ -50,6 +53,7 @@ String emailUsuario = 'ceted71812@bariswc.com'
 String numeroCelular = '3205964349'
 String cargoUsuario = 'Gestionador de solicitudes'
 String password = 'c4HiwZztlarfDaH0rnJD6g=='
+String nameClienteUsar = 'grow'
 
 // Inicio del navegador y navegación a la URL de la aplicación
 
@@ -67,13 +71,17 @@ WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.
 
 WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/a_Crear Usuarios'))
 
-// Selección del cliente DONPEDRO
+// Selección del cliente 
 
 WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/div_Seleccione el clienteRemove item'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/div_DONPEDRO_opcion'), 5)
+WebUI.waitForElementVisible(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/input_Remove item_choices__input choices__input--cloned'), 10)
 
-WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/div_DONPEDRO_opcion'))
+WebUI.setText(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/input_Remove item_choices__input choices__input--cloned'), nameClienteUsar)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/div_Cliente_opcion'), 5)
+
+WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/div_Cliente_opcion'))
 
 WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/button_Crear Usuario'))
 
@@ -83,8 +91,11 @@ WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.
 
 WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/div_BOGOT - BOGOT - CALLE SIEMPRE VIVA 145'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/select_No Aplica  No Tiene Sucursal.       _3bdbcf'), 
-    '19', true) // Selecciona la sucursal 'bogota calle siempre viva 145'
+SeleccionSurcursal.seleccionarSucursales("primera") // Selecciona solo la primera
+
+// SeleccionSurcursal.seleccionarSucursales("todas") // Selecciona todas
+
+// SeleccionSurcursal.seleccionarSucursales("ninguna") // Selecciona ninguna
 
 WebUI.setText(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/input_Nombre de Usuario_nombreUsuario'), nameUsuario)
 
@@ -116,13 +127,18 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/crear_usuario/Page_S
 
 // Construir el TestObject dinámico para el checkbox
 String xpathCheckbox = config.checkbox
+String xpathCheckbox2 = config.checkbox2
 TestObject checkboxDinamico = new TestObject("checkboxDinamico").addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathCheckbox)
+TestObject checkboxDinamico2 = new TestObject("checkboxDinamico2").addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathCheckbox2)
 
 // 2. Scroll hasta el checkbox
 WebUI.scrollToElement(checkboxDinamico, 3) // 3 segundos de tiempo de espera
 
 // 3. Hacer clic en el checkbox
-WebUI.click(checkboxDinamico)
+WebUI.check(checkboxDinamico)
+
+// Hacer clic en el checkbox
+WebUI.check(checkboxDinamico2)
 
 WebUI.scrollToElement(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar Cambios'), 5)
 

@@ -41,9 +41,9 @@ public class InicioSesion {
 
 		// Verificación optimizada de sesión existente
 		def sessionWarning = findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos")
-    
-	    // Usamos verifyElementPresent que es más rápido para verificar existencia sin esperar el timeout completo
-	    if (WebUI.waitForElementVisible(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"), 5, FailureHandling.OPTIONAL)) {
+
+		// Usamos verifyElementPresent que es más rápido para verificar existencia sin esperar el timeout completo
+		if (WebUI.waitForElementVisible(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"), 5, FailureHandling.OPTIONAL)) {
 			WebUI.click(findTestObject("Object Repository/Inicio_Sesion/Page_Sales Orders 1.0 - 2025.03.20/button_Ingresar de todos modos"))
 		}
 

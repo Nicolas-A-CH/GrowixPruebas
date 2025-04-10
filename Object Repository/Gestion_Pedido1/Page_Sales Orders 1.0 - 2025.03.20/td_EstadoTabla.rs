@@ -6,12 +6,12 @@
    <elementGuidId>05e31d1e-3bfc-4e25-8e59-04a17428f69f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[7]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td:nth-of-type(7)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>5eda574d-79f8-4674-92b5-4fce55e7b56a</webElementGuid>
+      <webElementGuid>7affb2e3-0bfc-4f1b-8ba7-df672a6a242e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>En proceso</value>
-      <webElementGuid>18f50331-2191-42ee-a052-dc9442a27c47</webElementGuid>
+      <webElementGuid>d2d1fa0a-9fef-4053-84d7-811fb5c9f7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tblSolicitudesPendientes&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[7]</value>
-      <webElementGuid>38902032-7aa7-4b57-a17a-8fee06a69c24</webElementGuid>
+      <webElementGuid>25287fdc-e946-4067-9508-c49cc7992bdd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[7]</value>
-      <webElementGuid>bc2d8fc9-44a6-4569-a1fd-73a56ec22340</webElementGuid>
+      <webElementGuid>7ccd3a14-0078-4435-a3f7-b89608d211c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='calle 100'])[1]/following::td[2]</value>
-      <webElementGuid>51f83560-c3ee-4cb4-ad80-d98744783983</webElementGuid>
+      <webElementGuid>4d29e893-d5c4-47e1-abbf-ab7e216d85b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PEPE SIERRA - BOGOTÁ - BOGOTÁ'])[1]/following::td[3]</value>
-      <webElementGuid>caaefe6f-2f8e-45eb-a6aa-cd23a52c9be9</webElementGuid>
+      <webElementGuid>47cf3311-0235-424c-9cab-4017845f6ec2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLICITANTE (33333)'])[2]/preceding::td[2]</value>
-      <webElementGuid>809d8408-5ac5-4c85-8e83-65a782bad9c3</webElementGuid>
+      <webElementGuid>914d4ca6-6179-4526-84aa-c716c57ec66f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]</value>
-      <webElementGuid>3b451176-db1c-43c3-9b1f-8f2f5ddc48d3</webElementGuid>
+      <webElementGuid>f978b6b3-f93b-40aa-96a5-9e7d2404f386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'En proceso' or . = 'En proceso')]</value>
-      <webElementGuid>05687cbc-df3e-4884-bc0b-ce481aea5d4f</webElementGuid>
+      <webElementGuid>b18c76f3-824c-4347-aa12-3d9c150a6524</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

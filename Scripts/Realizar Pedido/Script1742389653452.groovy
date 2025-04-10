@@ -36,7 +36,7 @@ String cantidadEsperada = GlobalVariable.cantidadEsperada
 String estadoEsperado = "Sin revisar"
 
 // Definir el valor del select según el usuario
-String valorSelect = (usuario == "Solicitante2PruebasCO") ? "20" : "86"
+String valorSelect = (usuario == "Solicitante2PruebasCO") ? "3" : "86"
 
 WebUI.openBrowser('')
 

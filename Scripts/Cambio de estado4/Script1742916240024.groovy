@@ -14,20 +14,25 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
-import utils.CambioYRevionEstadoFase4
-import utils.InicioSesion
-
-import org.apache.poi.ss.usermodel.ConditionType
+import internal.GlobalVariable as GlobalVariable
+import utils.CambioYRevionEstadoFase4 as CambioYRevionEstadoFase4
+import utils.InicioSesion as InicioSesion
+import org.apache.poi.ss.usermodel.ConditionType as ConditionType
 import org.openqa.selenium.Keys as Keys
 
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
-String usuario = "GrowixCO"
+String usuario = 'GrowixCO'
+
 String vinEsperado = GlobalVariable.vinEsperado
+
 String marcaEsperada = GlobalVariable.marcaEsperada
+
 String numeroParteEsperado = GlobalVariable.numeroParteEsperado
+
 String descripcionEsperada = GlobalVariable.descripcionEsperada
+
 String cantidadEsperada = GlobalVariable.cantidadEsperada
+
 String precio = GlobalVariable.precio
 
 WebUI.openBrowser('')
@@ -44,43 +49,52 @@ WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orde
 
 // Obtener los valores de la primera fila de la tabla de detalles
 TestObject celdaVin = findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/td_VIN')
+
 String vinActual = WebUI.getText(celdaVin)
 
 TestObject celdaMarca = findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/td_Marca')
+
 String marcaActual = WebUI.getText(celdaMarca)
 
 TestObject celdaNumeroParte = findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/td_NumeroParte')
+
 String numeroParteActual = WebUI.getText(celdaNumeroParte)
 
 TestObject celdaDescripcion = findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/td_Descripcion')
+
 String descripcionActual = WebUI.getText(celdaDescripcion)
 
 TestObject celdaCantidad = findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/td_Cantidad')
+
 String cantidadActual = WebUI.getText(celdaCantidad)
 
 TestObject numeroPedido = findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/td_NumPedido')
 
 //TestObject checkPremium = findTestObject('Object Repository/cotizaciones/Page_Sales Orders 1.0 - 2025.03.20/input_40,000.00_form-check-input pedido-premium')
 //boolean esPremium = WebUI.getAttribute(checkPremium, "checked") == "true" // Si está marcado, devuelve "true"
-
 // Validaciones
 WebUI.verifyMatch(vinActual, vinEsperado, false)
+
 WebUI.verifyMatch(marcaActual, marcaEsperada, false)
+
 WebUI.verifyMatch(numeroParteActual, numeroParteEsperado, false)
+
 WebUI.verifyMatch(descripcionActual, descripcionEsperada, false)
+
 WebUI.verifyMatch(cantidadActual, cantidadEsperada, false)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Entrega Estimada'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Entrega Estimada'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Entrega Estimada'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione.                         _05f498'), 
-    '9', true)
+    '10', true)
 
 WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/button_Actualizar estado'))
 
-WebUI.setText(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Nmero de pedido requerido_npedidoInput'),
-	'133')
+WebUI.setText(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/input_Nmero de pedido requerido_npedidoInput'), 
+    '133')
 
 WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orders 1.0 - 2025.03.20/button_Actualizar'))
 
@@ -88,32 +102,17 @@ WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orde
 
 InicioSesion.cerrarSesion()
 
-InicioSesion.inicioSesionDinamico("Solicitante2PruebasCO")
+InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
 
-CambioYRevionEstadoFase4.verificarEstadoSolicitud("Pendiente")
+CambioYRevionEstadoFase4.verificarEstadoSolicitud('Pendiente')
 
 // Construir el XPath dinámico usando el valor de numeroPedido
 //String xpathDinamico = "//a[contains(@onclick, 'mostrarDetalle(\"" + numeroPedido + "\")')]"
-
 // Crear el TestObject dinámico
 //TestObject enlacePedido = new TestObject("enlacePedidoDinamico")
 //enlacePedido.addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathDinamico)
-
 // Hacer clic en el enlace
 //WebUI.click(enlacePedido)
-
-InicioSesion.cerrarSesion()
-
-InicioSesion.inicioSesionDinamico(usuario)
-
-CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(10)
-
-InicioSesion.cerrarSesion()
-
-InicioSesion.inicioSesionDinamico("Solicitante2PruebasCO")
-
-CambioYRevionEstadoFase4.verificarEstadoSolicitud("En tránsito")
-
 InicioSesion.cerrarSesion()
 
 InicioSesion.inicioSesionDinamico(usuario)
@@ -122,9 +121,9 @@ CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(11)
 
 InicioSesion.cerrarSesion()
 
-InicioSesion.inicioSesionDinamico("Solicitante2PruebasCO")
+InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
 
-CambioYRevionEstadoFase4.verificarEstadoSolicitud("En aduana")
+CambioYRevionEstadoFase4.verificarEstadoSolicitud('En tránsito')
 
 InicioSesion.cerrarSesion()
 
@@ -134,6 +133,19 @@ CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(12)
 
 InicioSesion.cerrarSesion()
 
-InicioSesion.inicioSesionDinamico("Solicitante2PruebasCO")
+InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
 
-CambioYRevionEstadoFase4.verificarEstadoSolicitud("Entregado")
+CambioYRevionEstadoFase4.verificarEstadoSolicitud('En aduana')
+
+InicioSesion.cerrarSesion()
+
+InicioSesion.inicioSesionDinamico(usuario)
+
+CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(13)
+
+InicioSesion.cerrarSesion()
+
+InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
+
+CambioYRevionEstadoFase4.verificarEstadoSolicitud('Entregado')
+

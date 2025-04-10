@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Sucursal del Cliente_sucursal-ts-control</name>
+   <name>input_Remove item_choices__input choices__input--cloned</name>
    <tag></tag>
-   <elementGuidId>3401a8d1-c09f-464c-9e7c-7cd16e32c00e</elementGuidId>
+   <elementGuidId>bd9981d1-a1c5-40f6-b599-a6ba024c268a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='sucursal-ts-control']</value>
+         <key>CSS</key>
+         <value>input.choices__input.choices__input--cloned</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#sucursal-ts-control</value>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c080ca63-e3cd-460e-9182-d3766663cba5</webElementGuid>
+      <webElementGuid>3a06e3f2-c602-4505-b7c1-e6bab790f6f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>107a4ff8-271f-42ec-9269-fac06b4bfb03</webElementGuid>
+      <webElementGuid>d8966528-e9b2-4a80-83ac-7251a81e9419</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>choices__input choices__input--cloned</value>
+      <webElementGuid>a4748be0-32fe-4e73-97b6-d1c68c1a1189</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,118 +47,94 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>1eb8b0c4-e978-4669-a450-3f7126d6de47</webElementGuid>
+      <webElementGuid>18ddb852-ef29-48bd-9e45-0294a8849c42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>size</name>
+      <name>autocapitalize</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>f3107bf7-fc19-44a5-9f7f-1a60e3d03437</webElementGuid>
+      <value>off</value>
+      <webElementGuid>f4fd5db9-2856-4e31-b970-6021479908bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>spellcheck</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>036930cd-f218-47c1-b2fc-26382c2c2f2d</webElementGuid>
+      <value>false</value>
+      <webElementGuid>1ad41eaa-0c79-4c0d-956b-43415057e248</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
-      <value>combobox</value>
-      <webElementGuid>37d1c9a8-c284-45d6-bb7f-b585ae7dd5a3</webElementGuid>
+      <value>textbox</value>
+      <webElementGuid>3ebc6a8a-09cd-4946-879b-505159d88df1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-haspopup</name>
+      <name>aria-autocomplete</name>
       <type>Main</type>
-      <value>listbox</value>
-      <webElementGuid>30f3d1d8-a1c6-49fd-be17-54e8a5872303</webElementGuid>
+      <value>list</value>
+      <webElementGuid>cbf0ff4b-3bb9-4b8a-a5fb-312e425dd95a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>b2c27970-90f1-4f25-bf68-16a9cdf3e03e</webElementGuid>
+      <value>Seleccione el cliente!</value>
+      <webElementGuid>5868ce1b-7bb9-48aa-90eb-92d48a8c9f6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
+      <name>aria-activedescendant</name>
       <type>Main</type>
-      <value>sucursal-ts-dropdown</value>
-      <webElementGuid>d7c60fd4-90a5-49b9-aa85-10a38419b64d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>sucursal-ts-control</value>
-      <webElementGuid>a41e4411-63f3-4288-ae74-620273a9aea0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-labelledby</name>
-      <type>Main</type>
-      <value>sucursal-ts-label</value>
-      <webElementGuid>cfa42cf3-f6b3-48f5-a1a4-90392ba8ee27</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Seleccione una o más sucursales...</value>
-      <webElementGuid>4ff4ef30-cf03-4ff6-a831-4019956ad281</webElementGuid>
+      <value>choices--codigosap-item-choice-9</value>
+      <webElementGuid>8daffd0a-5fbe-481e-a314-83c6a42499b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sucursal-ts-control&quot;)</value>
-      <webElementGuid>3a8736a0-f7de-42ac-9f55-c2ecddbee090</webElementGuid>
+      <value>id(&quot;top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;card mb-3 mt-3&quot;]/form[1]/div[@class=&quot;container mt-5&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-md-7&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;choices is-open is-flipped is-focused&quot;]/div[@class=&quot;choices__list choices__list--dropdown is-active&quot;]/input[@class=&quot;choices__input choices__input--cloned&quot;]</value>
+      <webElementGuid>2d8ad861-b5fa-41e1-8c8c-09cc9214155c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='sucursal-ts-control']</value>
-      <webElementGuid>33bacac3-fc85-40eb-ad67-e33e80b22ce3</webElementGuid>
+      <value>//input[@type='text']</value>
+      <webElementGuid>0f981d45-7565-4366-886f-3e8a1676acf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frm']/div[2]/div/div/div/div/input</value>
-      <webElementGuid>10271c38-d4b8-46cd-a8ab-939f2b3f24a0</webElementGuid>
+      <value>//main[@id='top']/div/div/div[4]/form/div/div[3]/div[2]/div/div/div[2]/input</value>
+      <webElementGuid>f5172c49-8ada-499a-8a90-7f8b875a421b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/input</value>
-      <webElementGuid>4007df5d-ea6b-446a-9ca0-8af2f35d0c66</webElementGuid>
+      <value>//div[2]/div/div/div[2]/input</value>
+      <webElementGuid>a9381524-7017-465d-a158-a2af7d26b777</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'sucursal-ts-control' and @placeholder = 'Seleccione una o más sucursales...']</value>
-      <webElementGuid>9a19ccc8-712e-4b37-a2cc-bf5414fcd29c</webElementGuid>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>fef2c582-f4c1-497c-995c-9d9a428003be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>a6e6fdf0-8052-4ad2-837d-b5c3b7a88d24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='top']/div/div/nav/ul[3]/li[3]/div/div/a[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;top&quot;]/div/div/nav/ul[3]/li[5]/div/div/a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5c41a97c-f628-48bd-a4ec-68d6292efe0d</webElementGuid>
+      <webElementGuid>f9b775ed-edaf-4631-bc85-e663d2df190d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-item </value>
-      <webElementGuid>3c743e44-563b-4f87-94cd-a312b2691065</webElementGuid>
+      <webElementGuid>eb90c8a1-bf88-46ea-9b05-8a7201430065</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:salir()</value>
-      <webElementGuid>c8851c2a-05a6-4317-ae81-2f31ec23674a</webElementGuid>
+      <webElementGuid>627db93f-9611-4120-97ae-a84d1d589d19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Salir  </value>
-      <webElementGuid>c03e7579-98b0-4b09-83c4-690b02c5434a</webElementGuid>
+      <webElementGuid>df1f1b4b-426c-4dfd-82a2-5e2b08af636c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;content&quot;]/nav[@class=&quot;navbar navbar-light navbar-glass navbar-top navbar-expand&quot;]/ul[@class=&quot;navbar-nav navbar-nav-icons ms-auto flex-row align-items-center&quot;]/li[@class=&quot;nav-item dropdown&quot;]/div[@class=&quot;dropdown-menu dropdown-caret dropdown-menu-end py-0 show&quot;]/div[@class=&quot;bg-white dark__bg-1000 rounded-2 py-2&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
-      <webElementGuid>e2a90dbe-a615-4914-97cc-c99f37552b60</webElementGuid>
+      <webElementGuid>4d339461-c257-49fc-92c6-e054d8a953bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='top']/div/div/nav/ul[3]/li[3]/div/div/a[2]</value>
-      <webElementGuid>834b8dd2-608f-4203-bc77-38621e50c70f</webElementGuid>
+      <webElementGuid>3035f22b-ae38-4797-98e3-afb2d6046a01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Salir')]</value>
-      <webElementGuid>72daa863-7739-4be3-a2cc-341360f153bf</webElementGuid>
+      <webElementGuid>d94b17b7-e3d5-4dc1-9ec7-694b2e72a2b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personalizar'])[1]/following::a[1]</value>
-      <webElementGuid>888ac8f7-c6d6-477e-8c48-0934e43dfa17</webElementGuid>
+      <webElementGuid>e5ce9c08-bd8e-4029-9b9a-0374ccf2a626</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/following::a[2]</value>
-      <webElementGuid>f8a16e08-d4c1-4c4d-b3c6-c2502ae0a583</webElementGuid>
+      <webElementGuid>9b99b9aa-e218-4157-a7f0-64234b80209f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personalizar'])[2]/preceding::a[1]</value>
-      <webElementGuid>cf220c0a-878f-4de7-99f9-c4e87c174425</webElementGuid>
+      <webElementGuid>5560fae9-d6eb-48f4-88d5-85f48f24c488</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Color'])[1]/preceding::a[1]</value>
-      <webElementGuid>4b3e9197-d3a8-493d-b598-a9bbc2094f75</webElementGuid>
+      <webElementGuid>83962dcb-143a-44d9-919c-eb6e5018f38d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Salir']/parent::*</value>
-      <webElementGuid>5696c768-8fcf-4289-8bdf-474162d1a792</webElementGuid>
+      <webElementGuid>105a075c-08c9-4d3a-8b68-2e005b6880d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:salir()')]</value>
-      <webElementGuid>d27fbe52-9d7d-490a-9fbc-6db2cd7bdfce</webElementGuid>
+      <webElementGuid>a4c6ac92-149b-4208-afae-d630874bdc39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/div/a[2]</value>
-      <webElementGuid>9a7a114a-871d-4c94-a4cb-468f5babdd69</webElementGuid>
+      <webElementGuid>c54790fd-7a56-4c5b-97c6-19ebcd3bedf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:salir()' and (text() = 'Salir  ' or . = 'Salir  ')]</value>
-      <webElementGuid>8ae31382-901d-4aff-877d-05cc85bc9356</webElementGuid>
+      <webElementGuid>0ac6b98a-5997-443e-bd96-ac222e65aeb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

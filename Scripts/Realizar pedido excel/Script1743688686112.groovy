@@ -158,3 +158,4 @@ validateTableDataAgainstJson()
 
 WebUI.click(findTestObject('Object Repository/RealizarPedidoExcel/Page_Sales Orders 1.0 - 2025.03.20/button_Cerrar'))
 
+InicioSesion.cerrarSesion()

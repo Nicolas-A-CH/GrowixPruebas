@@ -6,12 +6,12 @@
    <elementGuidId>a1a194fc-7d61-40d9-ad34-4acaf4869c8f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[13]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td:nth-of-type(14)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>605fd72d-0419-48fe-a386-9c0873da0b93</webElementGuid>
+      <webElementGuid>a14e70e1-979a-49c4-8b8b-db859b6beea5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Docker benz - 2020</value>
-      <webElementGuid>3e2a509f-57b5-42cb-9a52-7edb25239723</webElementGuid>
+      <webElementGuid>6a329ff6-572a-442e-9975-8584b9cb6169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tblSolicitudesPendientes&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[14]</value>
-      <webElementGuid>b6577914-627c-46ce-a812-ad6d4b2d5aa7</webElementGuid>
+      <webElementGuid>cd8e96bf-0ca5-4ef1-974f-261ab6762317</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[14]</value>
-      <webElementGuid>f0e997a7-11a8-4534-9a27-6645f12a890f</webElementGuid>
+      <webElementGuid>f7443192-e602-4114-8c90-123e991b97da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Calle 156 B - 99F - 66D #654 (cambiar por direccion real)'])[1]/following::td[3]</value>
-      <webElementGuid>ae6964ce-3da9-44ea-95b3-9c6b53694c3e</webElementGuid>
+      <webElementGuid>388cf7d1-dc8a-4f47-a7a0-70ce8e0147cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GROWIX COLOMBIA (CAMBIAR POR SEDE REAL)'])[1]/following::td[4]</value>
-      <webElementGuid>1f2a50a6-5bc7-4863-9838-dff0ccd05d0a</webElementGuid>
+      <webElementGuid>52391db4-6333-4136-b427-93e47de8bf32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='motor'])[1]/preceding::td[2]</value>
-      <webElementGuid>8f8963e3-f43b-4e91-9bc1-295940ac6d8e</webElementGuid>
+      <webElementGuid>7d84e2c6-c50d-4a6b-a2e3-49337e596f9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$11,000.00'])[1]/preceding::td[4]</value>
-      <webElementGuid>37f2e7ee-f13a-44fd-b9c9-9aa567870355</webElementGuid>
+      <webElementGuid>63024651-505a-4e53-aaa1-551f626b6a10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Docker benz - 2020']/parent::*</value>
-      <webElementGuid>d3002255-6462-4b5c-a23e-58449d12737b</webElementGuid>
+      <webElementGuid>a0f686b1-c034-44a1-bc03-15ce50cabee0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[14]</value>
-      <webElementGuid>7fc992f5-a5f2-4812-9609-9a6b727d9619</webElementGuid>
+      <webElementGuid>fbf0de8e-1425-48eb-a3a9-6c39318b92f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Docker benz - 2020' or . = 'Docker benz - 2020')]</value>
-      <webElementGuid>9ad69904-10ba-4e0c-b3c1-77dfc024a6b0</webElementGuid>
+      <webElementGuid>ffadae9e-4d26-4c01-ab3c-9114f941211b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
