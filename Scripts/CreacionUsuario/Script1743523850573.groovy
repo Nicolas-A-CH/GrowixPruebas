@@ -30,13 +30,14 @@ def userTypes = [
         atiendeCasos: '1', 
         checkbox: "//table[contains(@class, 'table-bordered')]/tbody/tr[3]/td[2]//input[@type='checkbox']",
 		checkbox2: "//table[contains(@class, 'table-bordered')]/tbody/tr[4]/td[2]//input[@type='checkbox']",
+		checkbox3: "//table[contains(@class, 'table-bordered')]/tbody/tr[5]/td[2]//input[@type='checkbox']",
         nameVisible: 'SOLUCIONADOR'
     ],
 	'SOLICITANTE': [
 		perfil: '0', // Valor para solicitante
 		atiendeCasos: '0', // No
 		checkbox: "//table[contains(@class, 'table-bordered')]/tbody/tr[2]/td[2]//input[@type='checkbox']",
-		checkbox2: "//table[contains(@class, 'table-bordered')]/tbody/tr[5]/td[2]//input[@type='checkbox']",
+		checkbox2: "//table[contains(@class, 'table-bordered')]/tbody/tr[6]/td[2]//input[@type='checkbox']",
 		nameVisible: 'SOLICITANTE'
 	]
 ]
@@ -48,7 +49,7 @@ def config = userTypes[tipoUsuario]
 
 //variables
 
-String nameUsuario = tipoUsuario + '3CO'
+String nameUsuario = tipoUsuario + '2CO'
 String emailUsuario = 'ceted71812@bariswc.com'
 String numeroCelular = '3205964349'
 String cargoUsuario = 'Gestionador de solicitudes'
@@ -91,9 +92,9 @@ WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.
 
 WebUI.click(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/div_BOGOT - BOGOT - CALLE SIEMPRE VIVA 145'))
 
-SeleccionSurcursal.seleccionarSucursales("primera") // Selecciona solo la primera
+//SeleccionSurcursal.seleccionarSucursales("primera") // Selecciona solo la primera
 
-// SeleccionSurcursal.seleccionarSucursales("todas") // Selecciona todas
+SeleccionSurcursal.seleccionarSucursales("todas") // Selecciona todas
 
 // SeleccionSurcursal.seleccionarSucursales("ninguna") // Selecciona ninguna
 
@@ -130,6 +131,7 @@ String xpathCheckbox = config.checkbox
 String xpathCheckbox2 = config.checkbox2
 TestObject checkboxDinamico = new TestObject("checkboxDinamico").addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathCheckbox)
 TestObject checkboxDinamico2 = new TestObject("checkboxDinamico2").addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathCheckbox2)
+TestObject checkboxDinamico3 = new TestObject("checkboxDinamico3").addProperty("xpath", com.kms.katalon.core.testobject.ConditionType.EQUALS, xpathCheckbox2)
 
 // 2. Scroll hasta el checkbox
 WebUI.scrollToElement(checkboxDinamico, 3) // 3 segundos de tiempo de espera
@@ -139,6 +141,10 @@ WebUI.check(checkboxDinamico)
 
 // Hacer clic en el checkbox
 WebUI.check(checkboxDinamico2)
+
+if (config.atiendeCasos == 1) {
+	WebUI.check(checkboxDinamico3)
+}
 
 WebUI.scrollToElement(findTestObject('Object Repository/crear_usuario/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar Cambios'), 5)
 

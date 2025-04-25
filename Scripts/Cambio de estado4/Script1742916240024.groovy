@@ -21,7 +21,9 @@ import org.apache.poi.ss.usermodel.ConditionType as ConditionType
 import org.openqa.selenium.Keys as Keys
 
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
-String usuario = 'GrowixCO'
+String usuario = GlobalVariable.usuarioSolucionador
+
+String usuarioSolicitante = GlobalVariable.usuarioSolicitante
 
 String vinEsperado = GlobalVariable.vinEsperado
 
@@ -35,11 +37,13 @@ String cantidadEsperada = GlobalVariable.cantidadEsperada
 
 String precio = GlobalVariable.precio
 
+String url = GlobalVariable.Url
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://growixpruebasplus.idl.com.co/sales-orders/jsp/index.jsp')
+WebUI.navigateToUrl(url)
 
 InicioSesion.inicioSesionDinamico(usuario)
 
@@ -102,7 +106,7 @@ WebUI.click(findTestObject('Object Repository/Cambio de estado 4/Page_Sales Orde
 
 InicioSesion.cerrarSesion()
 
-InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
+InicioSesion.inicioSesionDinamico(usuarioSolicitante)
 
 CambioYRevionEstadoFase4.verificarEstadoSolicitud('Pendiente')
 
@@ -121,7 +125,7 @@ CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(11)
 
 InicioSesion.cerrarSesion()
 
-InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
+InicioSesion.inicioSesionDinamico(usuarioSolicitante)
 
 CambioYRevionEstadoFase4.verificarEstadoSolicitud('En tránsito')
 
@@ -133,7 +137,7 @@ CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(12)
 
 InicioSesion.cerrarSesion()
 
-InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
+InicioSesion.inicioSesionDinamico(usuarioSolicitante)
 
 CambioYRevionEstadoFase4.verificarEstadoSolicitud('En aduana')
 
@@ -145,7 +149,7 @@ CambioYRevionEstadoFase4.navegarAprobadasYCambiarEstado(13)
 
 InicioSesion.cerrarSesion()
 
-InicioSesion.inicioSesionDinamico('Solicitante2PruebasCO')
+InicioSesion.inicioSesionDinamico(usuarioSolicitante)
 
 CambioYRevionEstadoFase4.verificarEstadoSolicitud('Entregado')
 

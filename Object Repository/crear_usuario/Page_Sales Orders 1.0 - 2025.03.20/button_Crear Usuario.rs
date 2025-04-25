@@ -6,12 +6,12 @@
    <elementGuidId>5a83e0e2-cdc9-4cba-b8a5-496594d0c9d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-falcon-primary.me-1.mb-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;top&quot;]/div/div/div[4]/form/div[1]/div[3]/div[3]/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>54ffb0d3-a9a6-4fd2-a2a2-7f1d2612e781</webElementGuid>
+      <webElementGuid>0c400a77-5ca1-4fb7-9309-4b08c0eac17c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9628845a-3fa3-4e3a-8fb1-5e2fce97188f</webElementGuid>
+      <webElementGuid>25530513-cc8f-4600-abe9-52451fb88d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>28507fd0-bbd5-40f4-ac1b-d8f1fdd92c1c</webElementGuid>
+      <webElementGuid>3f43253b-a736-4966-a589-91cbbd7b49c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>javascript:nuevoUser()</value>
-      <webElementGuid>d2911749-01bd-4930-b6f4-83f7bbc81560</webElementGuid>
+      <webElementGuid>54d0c636-0ed1-4660-ac36-acb5c837d9bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-falcon-primary me-1 mb-1</value>
-      <webElementGuid>44ba2291-87ef-4b7a-9c78-54258435f6c1</webElementGuid>
+      <webElementGuid>75e36a98-b084-4b10-90c1-6c20967da13b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip928926</value>
-      <webElementGuid>7b15c8ab-74a3-4870-af38-f69ab0d7cb9e</webElementGuid>
+      <webElementGuid>9e965dd4-f876-4b09-8e7d-0b803e29c4eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Crear Usuario </value>
-      <webElementGuid>dd485d7b-dd64-4866-a92d-7183f23d1d8a</webElementGuid>
+      <webElementGuid>eeff20c5-6498-409e-a720-de4fedc608a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;card mb-3 mt-3&quot;]/form[1]/div[@class=&quot;container mt-5&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-md-2 mt-4&quot;]/div[@class=&quot;form-group&quot;]/button[@class=&quot;btn btn-falcon-primary me-1 mb-1&quot;]</value>
-      <webElementGuid>77ef4937-455d-4c50-956d-96db802f6daa</webElementGuid>
+      <webElementGuid>dd3c1d2e-eb7c-401f-8355-49d53b77fff4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>dd80366c-c02d-40d7-9a07-bbfe5d30fdeb</webElementGuid>
+      <webElementGuid>cae0e3a5-78a5-4da5-8ba0-f71cbdebe230</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='top']/div/div/div[4]/form/div/div[3]/div[3]/div/button</value>
-      <webElementGuid>5ed27cd8-1d38-4832-9862-e31fdf8b32f9</webElementGuid>
+      <webElementGuid>4de3ea59-46be-4766-a0ac-2984c84d5109</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NIKOLAS ESTEBAN KREJCI BAUTISTA'])[1]/following::button[1]</value>
-      <webElementGuid>378f7979-cc70-4d77-b13e-96e8f81d94c2</webElementGuid>
+      <webElementGuid>e275b4ff-ee6e-47de-9f7b-105d038c2c14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IDL-SAS'])[1]/following::button[1]</value>
-      <webElementGuid>7fb0364c-843d-4053-ac6d-afe2f64ba060</webElementGuid>
+      <webElementGuid>2485d88b-8856-4eb8-8d0d-51078e54e328</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Editar'])[1]/preceding::button[1]</value>
-      <webElementGuid>684f581d-ba93-4249-b153-b115f7144e10</webElementGuid>
+      <webElementGuid>eeef16fb-4472-478d-94e4-214e40122b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Codigo de Usuario'])[1]/preceding::button[1]</value>
-      <webElementGuid>e8a69d2e-be5e-4214-aa6b-25fb27b4fbf2</webElementGuid>
+      <webElementGuid>135c8a4e-8fe4-40de-8189-588fd6d1bb73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Crear Usuario']/parent::*</value>
-      <webElementGuid>191b82d2-cccd-412c-8b9a-113a7562fc9a</webElementGuid>
+      <webElementGuid>fd6e8825-1a6c-471d-af5b-1cfa90848d54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>a88d31da-7d96-4d7b-a6ff-32dafa89f338</webElementGuid>
+      <webElementGuid>2c51aeae-e526-450c-aed4-aa1fa793105a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,6 +151,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Crear Usuario ' or . = 'Crear Usuario ')]</value>
-      <webElementGuid>cf7b95d6-0574-4e67-8ce7-c56b30406e4a</webElementGuid>
+      <webElementGuid>365859e5-8efe-4686-b8b5-4ae7ea542f52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -26,7 +26,7 @@ InicioSesion iniciarSesion = new InicioSesion()
 TestObject spiner = findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/SppinerLoadPage')
 
 // Definir el usuario actual (puedes cambiarlo dinámicamente según tu caso de prueba)
-String usuario = "Solicitante2PruebasCO"
+String usuario = GlobalVariable.usuarioSolicitante
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
 String vinEsperado = GlobalVariable.vinEsperado
 String marcaEsperada = GlobalVariable.marcaEsperada
@@ -34,13 +34,14 @@ String numeroParteEsperado = GlobalVariable.numeroParteEsperado
 String descripcionEsperada = GlobalVariable.descripcionEsperada
 String cantidadEsperada = GlobalVariable.cantidadEsperada
 String estadoEsperado = "Sin revisar"
+String url = GlobalVariable.Url
 
 // Definir el valor del select según el usuario
-String valorSelect = (usuario == "Solicitante2PruebasCO") ? "3" : "86"
+String valorSelect = (usuario == "SOLICITANTE2CO") ? "31" : "2"
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://growixpruebasplus.idl.com.co/sales-orders/jsp/index.jsp')
+WebUI.navigateToUrl(url)
 
 WebUI.maximizeWindow()
 
@@ -67,7 +68,10 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/RealizarPedido/Page_
 
 WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_VIN (se recomienda ingresar este valo_33dc7e'), vinEsperado)
 
-WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_Marca versin y modelo_marcaPedido'), marcaEsperada)
+WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.20/div_Marca versin y modelo_ts-control'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione una opcion.              _847a92'), 
+    '41', true)
 
 WebUI.setText(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/input_Nmero de parte_numeroParte'), numeroParteEsperado)
 
@@ -121,5 +125,3 @@ WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1
 WebUI.waitForElementNotVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/Detalles_modal'), 30)
 
 iniciarSesion.cerrarSesion()
-
-WebUI.closeBrowser()

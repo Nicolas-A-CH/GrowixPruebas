@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Solicitudes Recibidas</name>
+   <name>a_Facturacion de Pedidos</name>
    <tag></tag>
-   <elementGuidId>67c5620a-8963-4c69-b330-235ecc4b87b9</elementGuidId>
+   <elementGuidId>9016d744-2683-42b1-9f41-9b57db586bca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#irMenu</value>
+         <value>#events33 > li.nav-item > #irMenu</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, 'solicitudesRecibidas.jsp') and contains(text(), 'Solicitudes Recibidas')]</value>
+         <value>(//a[@id='irMenu'])[10]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>23c5e430-7b47-4273-9dab-ec33b64c453c</webElementGuid>
+      <webElementGuid>a3ea1ac6-6f87-4120-b797-360a39d96d6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>irMenu</value>
-      <webElementGuid>cbce3140-b6e5-4288-9961-7370edd37c4d</webElementGuid>
+      <webElementGuid>ea40393b-9922-4829-80f5-5b6319148e45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,126 +39,126 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link </value>
-      <webElementGuid>75e866d5-85c3-4736-80e2-efd6821bb3ce</webElementGuid>
+      <webElementGuid>1b2bf5d8-90b5-42c6-8433-5d8686fd6052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>javascript:actualizaVariableCodmodulo('../jsp/solucionador/solicitudesRecibidas.jsp')</value>
-      <webElementGuid>eb2584d6-12fe-47c2-87a9-06a90ac5fe2a</webElementGuid>
+      <value>javascript:actualizaVariableCodmodulo('../jsp/facturador/pedidosEntregados.jsp')</value>
+      <webElementGuid>56567123-fb25-4734-b618-ae46944b53d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:irmenu('100','/sales-orders/jsp/../jsp/solucionador/solicitudesRecibidas.jsp')</value>
-      <webElementGuid>9946d65b-f5c4-40f2-8c1a-677003d47a0d</webElementGuid>
+      <value>javascript:irmenu('118','/sales-orders/jsp/../jsp/facturador/pedidosEntregados.jsp')</value>
+      <webElementGuid>63718dd2-8c7f-4177-8c7a-93fcd03df735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Solicitudes Recibidas</value>
-      <webElementGuid>9d346b3c-9466-4a64-8c00-4b92dfc723af</webElementGuid>
+      <value>Facturacion de Pedidos</value>
+      <webElementGuid>17a29a0c-ecac-47ac-b712-c74b332569cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarVerticalNav&quot;)/li[@class=&quot;nav-item&quot;]/ul[@id=&quot;events3&quot;]/li[@class=&quot;nav-item&quot;]/a[@id=&quot;irMenu&quot;]</value>
-      <webElementGuid>7f59a5c5-9518-43a0-8f30-72ee38a108df</webElementGuid>
+      <value>id(&quot;events33&quot;)/li[@class=&quot;nav-item&quot;]/a[@id=&quot;irMenu&quot;]</value>
+      <webElementGuid>b9ded801-0d3b-4234-870b-08f7e6c1f7a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='irMenu']</value>
-      <webElementGuid>1f08db1c-7c42-4ec1-b0c4-dbd8e0025453</webElementGuid>
+      <value>(//a[@id='irMenu'])[10]</value>
+      <webElementGuid>4689e182-e472-42a3-8aa2-4cae9fb746dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='events3']/li/a[2]</value>
-      <webElementGuid>bf93f24e-79f0-4480-8b20-001b891a004c</webElementGuid>
+      <value>//ul[@id='events33']/li/a[2]</value>
+      <webElementGuid>5ec5ea1d-fcc6-47c7-a99a-086ad3210a93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Solicitudes Recibidas')]</value>
-      <webElementGuid>f8402b3a-6cf1-4f1b-ad09-e52abbb6ae78</webElementGuid>
+      <value>//a[contains(text(),'Facturacion de Pedidos')]</value>
+      <webElementGuid>858e13c2-9f76-40d4-b876-95d2bab8d611</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Growix Finder'])[1]/following::a[2]</value>
-      <webElementGuid>97ed610b-181b-4c79-8582-86b0d5664a9e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Growix Biller'])[1]/following::a[2]</value>
+      <webElementGuid>6e4bdf4d-e071-4727-8ec1-1e75ba90a600</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menú'])[1]/following::a[3]</value>
-      <webElementGuid>32a155bb-fbd8-4d8b-8140-d873fb496533</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solución de Casos'])[1]/following::a[3]</value>
+      <webElementGuid>266a9443-ffbd-4661-80b0-c3225b54ed1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes Aprobadas'])[1]/preceding::a[2]</value>
-      <webElementGuid>4d135cd9-42ed-4ec1-81eb-fc5e43a37eab</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar'])[1]/preceding::a[2]</value>
+      <webElementGuid>5cc8157f-e6ad-4962-ad9c-120ac1ac8fec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes Enviadas'])[1]/preceding::a[4]</value>
-      <webElementGuid>854c0a1c-782f-4766-95e7-1a9802ab7c20</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitudes Recibidas'])[2]/preceding::a[3]</value>
+      <webElementGuid>315dc3a3-f25e-4c34-b567-71cd456062df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Solicitudes Recibidas']/parent::*</value>
-      <webElementGuid>2a2be4d0-b816-4c7e-9a84-ac6cde8ec461</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Facturacion de Pedidos']/parent::*</value>
+      <webElementGuid>68eaefd3-7311-47be-a3f1-b6062e55b8ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, &quot;javascript:irmenu('100','/sales-orders/jsp/../jsp/solucionador/solicitudesRecibidas.jsp')&quot;)]</value>
-      <webElementGuid>2e661004-0862-46c7-97a9-108b884b1097</webElementGuid>
+      <value>//a[contains(@href, &quot;javascript:irmenu('118','/sales-orders/jsp/../jsp/facturador/pedidosEntregados.jsp')&quot;)]</value>
+      <webElementGuid>6c54f661-2c59-4942-9b8c-294ca23671fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>fa1e60a6-070e-4681-a57d-b9a375c30a16</webElementGuid>
+      <value>//ul[10]/li/a[2]</value>
+      <webElementGuid>7e1ef474-4344-43bd-81ea-264a53caa07f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'irMenu' and @href = concat(&quot;javascript:irmenu(&quot; , &quot;'&quot; , &quot;100&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/sales-orders/jsp/../jsp/solucionador/solicitudesRecibidas.jsp&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Solicitudes Recibidas' or . = 'Solicitudes Recibidas')]</value>
-      <webElementGuid>b66979ed-e52a-42cf-b82c-6f7ad5c2101c</webElementGuid>
+      <value>//a[@id = 'irMenu' and @href = concat(&quot;javascript:irmenu(&quot; , &quot;'&quot; , &quot;118&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/sales-orders/jsp/../jsp/facturador/pedidosEntregados.jsp&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Facturacion de Pedidos' or . = 'Facturacion de Pedidos')]</value>
+      <webElementGuid>86c8a099-9757-4e8f-b2d7-eb8a652036bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

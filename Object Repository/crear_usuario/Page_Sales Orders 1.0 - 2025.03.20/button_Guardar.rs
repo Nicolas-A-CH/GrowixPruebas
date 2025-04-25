@@ -6,12 +6,12 @@
    <elementGuidId>af407735-5d15-4961-a4d5-aed1414b6f32</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.swal2-confirm.btn.btn-falcon-primary.me-1.mb-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div[6]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>363fe530-42b2-44f6-9ad4-7bd12ed4a36e</webElementGuid>
+      <webElementGuid>d4b0e6ec-04a0-423a-bc73-a00f0e74d506</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>01cb7d48-61b8-44f0-88bd-2dec8bfd642e</webElementGuid>
+      <webElementGuid>c4da4ea1-80cf-4783-839b-88def45516b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-confirm btn btn-falcon-primary me-1 mb-1</value>
-      <webElementGuid>fdbb3dfe-678c-4967-917b-92c931b9aefc</webElementGuid>
+      <webElementGuid>e3c754e1-49da-4116-9cf1-7d201d334ec8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
-      <webElementGuid>5238be2d-ef24-47dc-887b-f923b8619bc1</webElementGuid>
+      <webElementGuid>144d7e34-d709-467e-b8bd-273e8b02eea8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;chrome windows fontawesome-i2svg-active fontawesome-i2svg-complete swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal alertaBasicaAsonac-container swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm btn btn-falcon-primary me-1 mb-1&quot;]</value>
-      <webElementGuid>e8609282-7fa6-479c-87cf-36279e1407d7</webElementGuid>
+      <webElementGuid>b22b121c-95ff-4720-941f-6fb9d81b6679</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>9532f4d7-0619-4b48-b1b5-edf4bc62ab85</webElementGuid>
+      <webElementGuid>4aef1e3e-e327-4885-bdb6-571de4bc4f5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Guardar cambios?'])[1]/following::button[1]</value>
-      <webElementGuid>e425b871-8abf-453e-86f6-ab1972b9c90f</webElementGuid>
+      <webElementGuid>6ee588c8-a3fc-4b9a-afc5-fd93cdba9c3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::button[1]</value>
-      <webElementGuid>d9595ff8-79c1-476c-ad84-3f3e6da1bb61</webElementGuid>
+      <webElementGuid>951575f0-06a8-47ed-84d2-d9678bcfb013</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/preceding::button[1]</value>
-      <webElementGuid>eb5a5478-95bf-49f9-b544-3c6ab647af6a</webElementGuid>
+      <webElementGuid>cb10a32a-19d4-4a9c-9ca8-771c34da1aa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[2]</value>
-      <webElementGuid>ce209d58-5690-40cc-8173-911802ca092a</webElementGuid>
+      <webElementGuid>42e94c5a-cd1e-44ab-b5ee-c3b551a55e95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
-      <webElementGuid>864be7d8-9a5b-44aa-9386-e0e05b77fffa</webElementGuid>
+      <webElementGuid>a8c7466a-2835-4168-97ac-92bae6fa91ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button</value>
-      <webElementGuid>b20a9e53-3187-4aa2-aedc-092915743786</webElementGuid>
+      <webElementGuid>5a2eec89-0349-46d2-bda3-bc4ae120ab78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Guardar' or . = 'Guardar')]</value>
-      <webElementGuid>4b474721-f358-4b2e-819b-294a7acff71c</webElementGuid>
+      <webElementGuid>155d90c0-07fa-41a5-8a69-3bf50eeaf0ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

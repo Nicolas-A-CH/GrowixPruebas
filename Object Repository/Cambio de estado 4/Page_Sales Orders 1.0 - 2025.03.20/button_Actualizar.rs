@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>/html/body/div/div/div[6]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cd29045b-fc65-4a87-b115-1f0f77d8c5a1</webElementGuid>
+      <webElementGuid>6cf40a4a-1068-46ff-a17e-78dd1af674ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6f8634e6-5e41-40f8-b64c-48c3aeedd24c</webElementGuid>
+      <webElementGuid>5ae01b8b-5768-4865-8f18-c789751e49cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-confirm swal2-styled</value>
-      <webElementGuid>1d2b1f4f-fa20-4909-ad33-c4e11316ed52</webElementGuid>
+      <webElementGuid>814c966a-be38-4171-abe8-e341aabc6771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Actualizar</value>
-      <webElementGuid>09f2671d-3f6d-4974-b7fd-fa70c892ab55</webElementGuid>
+      <webElementGuid>c996f2b7-48bb-49a6-831b-35640810fadd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;chrome windows fontawesome-i2svg-active fontawesome-i2svg-complete swal2-shown&quot;]/body[@class=&quot;swal2-shown&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-popup-custom swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm swal2-styled&quot;]</value>
-      <webElementGuid>0adfc409-1c38-4fff-b2d7-0d351bf980e9</webElementGuid>
+      <webElementGuid>f4738857-6c28-4cdd-b46b-e9724ea632f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>269535eb-e7ea-4ba1-a4f0-a87bc14fe776</webElementGuid>
+      <webElementGuid>94456d28-bdad-46af-8742-f3abed141b6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Número de pedido requerido'])[1]/following::button[1]</value>
-      <webElementGuid>f8289020-6400-4ff6-8f35-de2abeacbfca</webElementGuid>
+      <webElementGuid>c17547fb-e678-4530-9221-5f7ca0759fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
-      <webElementGuid>4f450091-455c-4854-9e8f-c64fc66a1faa</webElementGuid>
+      <webElementGuid>5a395a34-0617-402f-81af-57ef071e5ac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
-      <webElementGuid>13425b46-b225-4b0e-af8d-7d484e9da823</webElementGuid>
+      <webElementGuid>c9ceef42-d9e1-4972-89a2-890a5f69aca7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/preceding::button[2]</value>
-      <webElementGuid>2075a5d1-8be7-47ac-84c9-de89e37cea50</webElementGuid>
+      <webElementGuid>14b6f535-bfc2-4fd9-b21d-a1c1fc5da432</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Actualizar']/parent::*</value>
-      <webElementGuid>f1f54c63-eaa4-4fda-854b-156242a943e4</webElementGuid>
+      <webElementGuid>7dd932db-098e-4366-91ad-1dc948237a36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button</value>
-      <webElementGuid>1cc9dbab-9161-43d1-bde4-491eb4dc7227</webElementGuid>
+      <webElementGuid>bf13aa73-3bf1-4db7-b2bc-d52473644ca3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Actualizar' or . = 'Actualizar')]</value>
-      <webElementGuid>89e83553-7056-4d0f-83db-448ae199d7b5</webElementGuid>
+      <webElementGuid>231b48d7-c84e-4caf-abb1-0cb4b4ae7ed5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

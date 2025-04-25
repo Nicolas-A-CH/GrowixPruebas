@@ -19,6 +19,24 @@ import utils.InicioSesion
 
 import org.openqa.selenium.Keys as Keys
 
+String numeroPais = "1" // Colombia = 1, Ecuador = 5
+
+String numIdentidadONit = "100001"
+
+String nombreORazonSocial = 'DonPedro'
+
+String ciudad = 'Bogotá - BOGOTÁ'
+
+String direccion = 'Calle Siempre viva 145'
+
+String celular = '3134541985'
+
+String tipo = 'sobre natural'
+
+String correoElectronico = 'pruebas@Idl.com'
+
+String facturaElectronicaCorreo = 'pruebas@Idl.com'
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://growixpruebasplus.idl.com.co/sales-orders/jsp/index.jsp')
@@ -38,7 +56,7 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/CrearCliente_Sur
 int attempts = 0
 while(attempts < 3) {
     try {
-        WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione el Pas.                  _20c8cd'), '1', true)
+        WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Seleccione el Pas.                  _20c8cd'), numeroPais, true)
         break
     } catch (Exception e) {
         attempts++
@@ -54,34 +72,34 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcurs
     'Cliente', true)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Documento de identificacin_documento__67a552'), 
-    '100001')
+    numIdentidadONit)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/select_Selecciona su estado                _5dd4ee'), 
     '1', true)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Nombre Completo_razon_social'), 
-    'DonPedro')
+    nombreORazonSocial)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Ciudad_ciudad'), 
-    'Bogotá - BOGOTÁ')
+    ciudad)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Direccin del Cliente_direccion'), 
-    'Calle Siempre viva 145')
+    direccion)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Celular_celular'), 
-    '3134541985')
+    celular)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Telfono_tel'), 
-    '333333')
+    celular)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Tipo_tipo'), 
-    'sobre natural')
+    tipo)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Correo electrnico_correo'), 
-    'pruebas@Idl.com')
+    correoElectronico)
 
 WebUI.setText(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/input_Correo Factura Electronica_correoFactura'), 
-    'pruebas@Idl.com')
+    facturaElectronicaCorreo)
 
 WebUI.scrollToElement(findTestObject('Object Repository/CrearCliente_Surcursal/Page_Sales Orders 1.0 - 2025.03.20/button_Guardar Cambios'), 5)
 

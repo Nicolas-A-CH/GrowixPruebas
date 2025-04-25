@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Docker benz - 2020'</initValue>
+      <initValue>'KIA'</initValue>
       <name>marcaEsperada</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -33,5 +33,20 @@
       <description></description>
       <initValue>'10000'</initValue>
       <name>precio</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ClientePruebasEC'</initValue>
+      <name>usuarioSolicitante</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GrowixEC'</initValue>
+      <name>usuarioSolucionador</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://growixdemo.idl.com.co/sales-orders/jsp/index.jsp'</initValue>
+      <name>Url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

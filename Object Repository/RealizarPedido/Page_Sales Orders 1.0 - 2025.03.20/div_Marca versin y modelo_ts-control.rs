@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Marca versin y modelo_ts-control</name>
+   <tag></tag>
+   <elementGuidId>42f23e23-34b3-4319-88b4-ad72c1f9aca7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ts-control</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmCreacionSolicitud']/div/div[2]/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8ad141ce-966f-4ca8-a6fb-2835d173f0f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ts-control</value>
+      <webElementGuid>75310db6-fd99-4240-b64b-7c1a0d530353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmCreacionSolicitud&quot;)/div[@class=&quot;card-body&quot;]/div[@class=&quot;row g-2&quot;]/div[@class=&quot;col-5&quot;]/div[@class=&quot;mb-3&quot;]/div[@class=&quot;ts-wrapper form-select single plugin-remove_button required invalid&quot;]/div[@class=&quot;ts-control&quot;]</value>
+      <webElementGuid>ff0db0b7-d51e-4eb5-b7e6-67e4fa5c111a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmCreacionSolicitud']/div/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>a1e35917-1d9e-431e-82c9-45e15e0adbf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marca versión y modelo*'])[1]/following::div[2]</value>
+      <webElementGuid>6451edf1-bc2a-4a55-aaf4-46780214c921</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIN (se recomienda ingresar este valor)'])[1]/following::div[4]</value>
+      <webElementGuid>9d110642-2f13-4435-be43-de2782a151b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Número de parte*'])[1]/preceding::div[3]</value>
+      <webElementGuid>a3be144f-ee69-409c-a2f6-b3eacb3e3602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción parte*'])[1]/preceding::div[5]</value>
+      <webElementGuid>6164c349-2c49-41fe-ad62-49b6fc378dce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div</value>
+      <webElementGuid>120a9c88-ab56-485c-acf3-e56bca956b83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys as Keys
 InicioSesion iniciarSesionObj = new InicioSesion()
 
 //valores
-String usuario = 'GrowixCO'
+String usuario = GlobalVariable.usuarioSolucionador
 
 String vinEsperado = GlobalVariable.vinEsperado
 
@@ -35,11 +35,13 @@ String descripcionEsperada = GlobalVariable.descripcionEsperada
 
 String cantidadEsperada = GlobalVariable.cantidadEsperada
 
+String url = GlobalVariable.Url
+
 String precio = GlobalVariable.precio
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://growixpruebasplus.idl.com.co/sales-orders/jsp/index.jsp')
+WebUI.navigateToUrl(url)
 
 WebUI.maximizeWindow()
 
@@ -52,6 +54,8 @@ WebUI.click(findTestObject('Object Repository/Gestion_Pedido1/Page_Sales Orders 
 WebUI.waitForElementClickable(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/enlace_VerMasDetalles_PrimeraFila'), 
     5)
 
+WebUI.scrollToElement(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/enlace_VerMasDetalles_PrimeraFila'), 5)
+
 WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/enlace_VerMasDetalles_PrimeraFila'))
 
 WebUI.click(findTestObject('Object Repository/Gestion_Pedido1/Page_Sales Orders null/button_Cerrar'))
@@ -63,6 +67,8 @@ TestObject celdaEstado2 = findTestObject('Object Repository/Gestion_Pedido1/Page
 String estadoActual2 = WebUI.getText(celdaEstado2)
 
 WebUI.verifyMatch(estadoActual2, "En proceso", false)
+
+WebUI.scrollToElement(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/enlace_VerMasDetalles_PrimeraFila'), 5)
 
 WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/enlace_VerMasDetalles_PrimeraFila'))
 

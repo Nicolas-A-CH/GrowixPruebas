@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[7]</value>
+         <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>a70a92f7-f6ca-4b33-a3b0-4413609f4281</webElementGuid>
+      <webElementGuid>28f2112d-c32d-4876-8bf9-e94e23b4f1d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Entregado</value>
-      <webElementGuid>47df4093-aef5-4dcd-9fe7-b17d675013ab</webElementGuid>
+      <webElementGuid>d4f11e0d-b838-406f-95ec-d584f7c40493</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tblSolicitudesPendientes&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[7]</value>
-      <webElementGuid>2c4e5bfe-c0c6-4e08-8468-b39d6210d90d</webElementGuid>
+      <webElementGuid>03b052c2-ffc3-4e95-81be-167a592d297b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='tblSolicitudesPendientes']/tbody/tr/td[7]</value>
-      <webElementGuid>cef0ecbb-1477-4019-bfed-038bcd370501</webElementGuid>
+      <webElementGuid>be7b7aa8-b5aa-449c-8e5d-ba2db715a3a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Calle 156 B - 99F - 66D #654 (cambiar por direccion real)'])[1]/following::td[2]</value>
-      <webElementGuid>087db35b-8495-476d-a688-31edddb57bbe</webElementGuid>
+      <webElementGuid>03297fd5-c7dc-47ac-ab36-bc79c6ed7730</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GROWIX COLOMBIA (CAMBIAR POR SEDE REAL) - BOGOTÁ - BOGOTÁ'])[1]/following::td[3]</value>
-      <webElementGuid>fdd1adc2-1781-4dc9-9bb3-cea835066569</webElementGuid>
+      <webElementGuid>cc06dea1-c104-4484-aa96-74569a4287e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLICITANTE2PRUEBASCO (33)'])[2]/preceding::td[2]</value>
-      <webElementGuid>fd8d9ca6-4d56-417f-8f7e-d04dce717768</webElementGuid>
+      <webElementGuid>032d8723-382a-46f2-977f-a4370559d185</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]</value>
-      <webElementGuid>9477f4c3-d015-49b7-951c-18a1a105acbb</webElementGuid>
+      <webElementGuid>17cffc47-cd5f-4e06-90ef-38ae8d0e9eb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Entregado' or . = 'Entregado')]</value>
-      <webElementGuid>978f4b06-234c-4240-9abb-bde0b548ab89</webElementGuid>
+      <webElementGuid>d8dba400-e308-413f-af3a-2d25d8e51d14</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

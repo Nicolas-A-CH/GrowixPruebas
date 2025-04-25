@@ -6,12 +6,12 @@
    <elementGuidId>517bd5d3-e42f-4d3e-8448-3ebfe7bc52b3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btnAnimado</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;frmCreacionSolicitud&quot;]/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7a15b3c7-cd3f-4b52-88cf-5d6862444a4c</webElementGuid>
+      <webElementGuid>eb19aca8-8bee-413a-9626-e573fa0ad5f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e7b3cb5e-47f5-4d1c-ae05-18ca466d76d0</webElementGuid>
+      <webElementGuid>d7b40b36-2f34-48bd-a617-37b997377487</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>crearSolicitud()</value>
-      <webElementGuid>77aa29d8-7180-41f2-820a-bd68e8c1bcfd</webElementGuid>
+      <webElementGuid>e521476b-6971-48bf-a73f-5501dc0a458e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btnAnimado</value>
-      <webElementGuid>90d2a419-e12f-4167-baa6-611374962473</webElementGuid>
+      <webElementGuid>de13816d-91f0-46bf-b22b-f4f95c8eb421</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generar solicitud</value>
-      <webElementGuid>0f60bbcb-2bb2-4696-be0a-d4fbb90a9806</webElementGuid>
+      <webElementGuid>65987ede-929a-46e0-8aca-9ea32300d60d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmCreacionSolicitud&quot;)/div[@class=&quot;card-body&quot;]/button[@class=&quot;btnAnimado&quot;]</value>
-      <webElementGuid>6995acd9-780e-47b5-b60a-8f50064cfd99</webElementGuid>
+      <webElementGuid>bf2279a3-25b9-4e08-988d-3c8a9e92de4a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>afc12eed-f59f-486c-ace7-9ec71abaaee2</webElementGuid>
+      <webElementGuid>8b69c205-6743-4ae2-9c82-3c8a2ed41401</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmCreacionSolicitud']/div/button</value>
-      <webElementGuid>112b423d-2a5d-4af6-a516-c8c5f8bace0b</webElementGuid>
+      <webElementGuid>cac829c5-2c8c-44e0-9b2d-12ecfce3f5ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cantidad*'])[1]/following::button[1]</value>
-      <webElementGuid>2497adbb-eb0d-4f07-ba7f-47d3cf427895</webElementGuid>
+      <webElementGuid>9f70fa6c-93cf-446b-8455-7fcb498e19c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción parte*'])[1]/following::button[1]</value>
-      <webElementGuid>455c9b0e-e856-48f0-a559-75fd83faebcd</webElementGuid>
+      <webElementGuid>8941153c-b232-474f-a399-086389a6d3cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargar Excel Pedidos'])[1]/preceding::button[1]</value>
-      <webElementGuid>dde0514b-8018-441e-9b18-a6a4cbab2480</webElementGuid>
+      <webElementGuid>ddbf1c2c-82bc-4a89-af84-15e2c252155c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[2]/preceding::button[1]</value>
-      <webElementGuid>fe5728cc-608c-4599-980d-2520cc473fa3</webElementGuid>
+      <webElementGuid>ba8b65fe-c341-44a1-8dc1-4657cfa036ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Generar solicitud']/parent::*</value>
-      <webElementGuid>6e48f9a4-b29d-42d3-b170-9bd2986685c4</webElementGuid>
+      <webElementGuid>d5ddec11-aab8-4008-aeda-3c45b80be2ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/button</value>
-      <webElementGuid>de2adf4d-70ff-4427-8339-df8132b969ca</webElementGuid>
+      <webElementGuid>52be3284-832a-4d8a-8e12-0d1fc4385db5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Generar solicitud' or . = 'Generar solicitud')]</value>
-      <webElementGuid>c3a7ce54-74d5-4a61-81be-ebe379c2165e</webElementGuid>
+      <webElementGuid>d37fc3e7-f202-4d00-bc81-1e5f8de5ca18</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

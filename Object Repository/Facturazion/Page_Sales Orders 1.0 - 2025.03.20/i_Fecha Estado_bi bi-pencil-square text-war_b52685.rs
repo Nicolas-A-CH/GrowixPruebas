@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Fecha Estado_bi bi-pencil-square text-war_b52685</name>
+   <tag></tag>
+   <elementGuidId>d2a8c170-bad4-41c9-8619-c880031a9733</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.bi.bi-pencil-square.text-warning.fs-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tablePedidos']/div[2]/div/div/table/tbody/tr/td/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f8b54fa1-69c9-4375-acc0-a0a2e07c24e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-pencil-square text-warning fs-2</value>
+      <webElementGuid>af70c081-fd4d-4d09-9dd9-7ca753fd660e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tablePedidos&quot;)/div[@class=&quot;card border-0 shadow-sm&quot;]/div[@class=&quot;card-body p-0&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover mb-0&quot;]/tbody[@class=&quot;list&quot;]/tr[@class=&quot;align-middle&quot;]/td[@class=&quot;actPedido py-3 fw-bold&quot;]/a[@class=&quot;text-primary&quot;]/i[@class=&quot;bi bi-pencil-square text-warning fs-2&quot;]</value>
+      <webElementGuid>6199072a-5b56-42d9-a191-d9063a655f44</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tablePedidos']/div[2]/div/div/table/tbody/tr/td/a/i</value>
+      <webElementGuid>e60b001e-e9b6-4b14-a331-7b066931fc8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a/i</value>
+      <webElementGuid>90b716e2-c794-4864-b110-96fe200b3414</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

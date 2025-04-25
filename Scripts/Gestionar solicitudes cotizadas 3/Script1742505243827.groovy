@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys as Keys
 //Inicializar class
 InicioSesion iniciarSesion = new InicioSesion()
 
-String usuario = "Solicitante2PruebasCO"
+String usuario = GlobalVariable.usuarioSolicitante
 // Definir los valores esperados (los mismos que se ingresaron en el formulario)
 String vinEsperado = GlobalVariable.vinEsperado
 String marcaEsperada = GlobalVariable.marcaEsperada
@@ -31,12 +31,13 @@ String numeroParteEsperado = GlobalVariable.numeroParteEsperado
 String descripcionEsperada = GlobalVariable.descripcionEsperada
 String cantidadEsperada = GlobalVariable.cantidadEsperada
 String precio = GlobalVariable.precio
+String url = GlobalVariable.Url
 
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://growixpruebasplus.idl.com.co/sales-orders/jsp/index.jsp')
+WebUI.navigateToUrl(url)
 
 iniciarSesion.inicioSesionDinamico(usuario)
 

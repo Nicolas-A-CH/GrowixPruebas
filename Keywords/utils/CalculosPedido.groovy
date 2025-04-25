@@ -34,7 +34,7 @@ public class CalculosPedido {
 
 	// Calcula el IVA sobre el subtotal base (sin aumento)
 	static double calcularIVA(double subtotalBase, String usuario) {
-		double ivaPorcentaje = (usuario == "GrowixCO" || usuario == "Solicitante2PruebasCO") ? 0.19 : 0.15
+		double ivaPorcentaje = (usuario == "GrowixCO" || usuario == "SOLICITANTE2CO") ? 0.19 : 0.15
 		return subtotalBase * ivaPorcentaje
 	}
 

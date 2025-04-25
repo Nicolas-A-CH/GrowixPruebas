@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Cerrar</name>
+   <name>button_Actualizar Estado a Facturado</name>
    <tag></tag>
-   <elementGuidId>11755ff2-f23d-49ce-aed2-8c63d9e8cd31</elementGuidId>
+   <elementGuidId>908c73a5-adc0-4d03-af31-1019a1158a30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-secondary</value>
+         <value>button.btn.btn-orange</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;documentModal&quot;]/div/div/div[3]/button</value>
+         <value>(//button[@type='button'])[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>91039ebd-315e-4c88-91cd-ffed1f85cd5a</webElementGuid>
+      <webElementGuid>c8040bac-18a2-47dc-8f7b-e0776a13f928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,110 +31,94 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>07d5a674-bc32-4ae5-9158-36e4688b5b29</webElementGuid>
+      <webElementGuid>7735e0f9-0817-41be-90e3-289a5461b213</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-secondary</value>
-      <webElementGuid>d795ec6c-fcce-4b0c-ad8c-31a82d0c7b77</webElementGuid>
+      <value>btn btn-orange</value>
+      <webElementGuid>0efa2917-c1f1-4f64-94b8-f4ec1db98f3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bs-dismiss</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>modal</value>
-      <webElementGuid>1215b771-2b99-4617-82f4-8ff08352136b</webElementGuid>
+      <value>cambioEstado(document.getElementById('modalIdPedidoDetalle').textContent)</value>
+      <webElementGuid>cd2c5d9b-a67e-47e6-b9c2-2bab41eecde4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cerrar</value>
-      <webElementGuid>89d736d0-9a51-45b2-8081-9a2ff4337fe1</webElementGuid>
+      <value>Actualizar Estado a Facturado</value>
+      <webElementGuid>4f06f84e-2bc9-4ac0-9dd6-f9af3e31a6d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;documentModal&quot;)/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
-      <webElementGuid>60399945-02e4-43f9-a13f-9c0476f24af7</webElementGuid>
+      <value>id(&quot;detalleModal&quot;)/div[@class=&quot;modal-dialog modal-lg modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-orange&quot;]</value>
+      <webElementGuid>3af7ec51-7615-4098-a6f3-98097ea11e17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>1e782ea2-79a5-4473-8a53-e80bc8a3aae7</webElementGuid>
+      <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>d91285de-35c6-4b76-9952-99de4c746395</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='documentModal']/div/div/div[3]/button</value>
-      <webElementGuid>e8c0342a-ab26-4356-a43d-3a0a97b42e2b</webElementGuid>
+      <value>//div[@id='detalleModal']/div/div/div[3]/button[2]</value>
+      <webElementGuid>69234986-5e4f-485d-ade6-f3eccc51b02f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[2]/following::button[1]</value>
-      <webElementGuid>0ec1e86e-e54a-4c9a-9d1c-982fc4c43313</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerrar'])[1]/following::button[1]</value>
+      <webElementGuid>150e84c3-7270-4075-bb6f-b820a42fbff1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[2]/following::button[1]</value>
-      <webElementGuid>9e181666-8eb3-49f7-9348-6e485f6d5f8f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción:'])[1]/following::button[2]</value>
+      <webElementGuid>33e926d9-421d-4dbe-98dc-f1f471cb33e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rechazar Pedido'])[1]/preceding::button[1]</value>
-      <webElementGuid>f5384f77-06c6-471f-98da-6b22430f5658</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Razón de rechazo'])[1]/preceding::button[2]</value>
-      <webElementGuid>49581ec6-86ee-4c33-9391-94478a3e61a2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Cerrar']/parent::*</value>
-      <webElementGuid>cf09347a-8b27-4d6d-91aa-a3b71f2b4d5a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Actualizar Estado a Facturado']/parent::*</value>
+      <webElementGuid>0480c374-b406-4480-897b-2e95bf3f6bfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/button</value>
-      <webElementGuid>dc955a2f-9ed6-44a2-b669-f4cf39947fbf</webElementGuid>
+      <value>//div[3]/button[2]</value>
+      <webElementGuid>bf62942c-b9ad-4db7-9787-d8291b22ffc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Cerrar' or . = 'Cerrar')]</value>
-      <webElementGuid>07f5d9f3-379d-4b93-9050-2ea29f3a2ccc</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Actualizar Estado a Facturado' or . = 'Actualizar Estado a Facturado')]</value>
+      <webElementGuid>5de9b1b2-9001-45d1-b836-bdbc8f9e6c4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

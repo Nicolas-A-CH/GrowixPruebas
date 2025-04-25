@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Cerrar</name>
+   <name>div_KIA</name>
    <tag></tag>
-   <elementGuidId>11755ff2-f23d-49ce-aed2-8c63d9e8cd31</elementGuidId>
+   <elementGuidId>853d96bc-d56b-4ac7-a6a9-b09abe04d966</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-secondary</value>
+         <value>#marcaPedido-opt-41</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;documentModal&quot;]/div/div/div[3]/button</value>
+         <value>//div[@id='marcaPedido-opt-41']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,119 +22,127 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>91039ebd-315e-4c88-91cd-ffed1f85cd5a</webElementGuid>
+      <value>div</value>
+      <webElementGuid>7bd0374f-aec0-4b34-93c4-51822b75b808</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>data-value</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>07d5a674-bc32-4ae5-9158-36e4688b5b29</webElementGuid>
+      <value>41</value>
+      <webElementGuid>1a99628f-25d2-403a-b2ed-1aa173c939b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-secondary</value>
-      <webElementGuid>d795ec6c-fcce-4b0c-ad8c-31a82d0c7b77</webElementGuid>
+      <value>option active</value>
+      <webElementGuid>08c07bc6-3910-4bff-b03a-21cf58f2fa7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-bs-dismiss</name>
+      <name>role</name>
       <type>Main</type>
-      <value>modal</value>
-      <webElementGuid>1215b771-2b99-4617-82f4-8ff08352136b</webElementGuid>
+      <value>option</value>
+      <webElementGuid>abaa002d-8cd5-4ee9-8157-29f571fb01b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>marcaPedido-opt-41</value>
+      <webElementGuid>b583f5bf-2ee9-4457-b3a5-ea3abb76c375</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>93fc689d-4fd1-4cc7-bfed-f8b9822e8fec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cerrar</value>
-      <webElementGuid>89d736d0-9a51-45b2-8081-9a2ff4337fe1</webElementGuid>
+      <value>KIA</value>
+      <webElementGuid>ee57231c-d9df-4bfa-b94d-e3977814e7b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;documentModal&quot;)/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
-      <webElementGuid>60399945-02e4-43f9-a13f-9c0476f24af7</webElementGuid>
+      <value>id(&quot;marcaPedido-opt-41&quot;)</value>
+      <webElementGuid>7867ef3b-577b-46f0-9336-173fa6651410</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>1e782ea2-79a5-4473-8a53-e80bc8a3aae7</webElementGuid>
+      <value>//div[@id='marcaPedido-opt-41']</value>
+      <webElementGuid>93e801eb-e03a-4cc8-bf5b-4f6ad49e3b25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='documentModal']/div/div/div[3]/button</value>
-      <webElementGuid>e8c0342a-ab26-4356-a43d-3a0a97b42e2b</webElementGuid>
+      <value>//div[@id='marcaPedido-ts-dropdown']/div[41]</value>
+      <webElementGuid>2627a239-228f-4111-9ad7-7196856ca929</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[2]/following::button[1]</value>
-      <webElementGuid>0ec1e86e-e54a-4c9a-9d1c-982fc4c43313</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HYUNDAI'])[2]/following::div[1]</value>
+      <webElementGuid>1e623aaf-d8f7-4036-9541-1f9950beb8a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[2]/following::button[1]</value>
-      <webElementGuid>9e181666-8eb3-49f7-9348-6e485f6d5f8f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAEWOO'])[2]/following::div[2]</value>
+      <webElementGuid>5f89b854-ed53-4520-89f5-9cb25a6c0956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rechazar Pedido'])[1]/preceding::button[1]</value>
-      <webElementGuid>f5384f77-06c6-471f-98da-6b22430f5658</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SAMSUNG'])[2]/preceding::div[1]</value>
+      <webElementGuid>e33ed160-52be-413e-85f3-e3b521a7864e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Razón de rechazo'])[1]/preceding::button[2]</value>
-      <webElementGuid>49581ec6-86ee-4c33-9391-94478a3e61a2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Cerrar']/parent::*</value>
-      <webElementGuid>cf09347a-8b27-4d6d-91aa-a3b71f2b4d5a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SSANGYONG'])[2]/preceding::div[2]</value>
+      <webElementGuid>ef713b67-b1a3-4080-9d6c-2448941fc459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/button</value>
-      <webElementGuid>dc955a2f-9ed6-44a2-b669-f4cf39947fbf</webElementGuid>
+      <value>//div[41]</value>
+      <webElementGuid>fd5fcb7a-be17-4981-b4ed-9050960376d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Cerrar' or . = 'Cerrar')]</value>
-      <webElementGuid>07f5d9f3-379d-4b93-9050-2ea29f3a2ccc</webElementGuid>
+      <value>//div[@id = 'marcaPedido-opt-41' and (text() = 'KIA' or . = 'KIA')]</value>
+      <webElementGuid>8afdbd32-f6bc-48f2-be76-fe64e69cc123</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

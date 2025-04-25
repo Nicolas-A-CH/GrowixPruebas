@@ -117,11 +117,13 @@ def validateTableDataAgainstJson() {
 //Variables
 TestObject spiner = findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/SppinerLoadPage')
 
-String usuario = "Solicitante2PruebasCO"
+String usuario = GlobalVariable.usuarioSolicitante
+
+String url = GlobalVariable.Url
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://growixpruebasplus.idl.com.co/sales-orders/jsp/index.jsp')
+WebUI.navigateToUrl(url)
 
 WebUI.maximizeWindow()
 
@@ -129,9 +131,9 @@ InicioSesion.inicioSesionDinamico(usuario)
 
 WebUI.click(findTestObject('Object Repository/RealizarPedidoExcel/Page_Sales Orders 1.0 - 2025.03.20/a_Mis Solicitudes Growix'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedidoExcel/Page_Sales Orders 1.0 - 2025.03.20/a_Crear Solicitud'), 3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/a_Crear Solicitud'), 5)
 
-WebUI.click(findTestObject('Object Repository/RealizarPedidoExcel/Page_Sales Orders 1.0 - 2025.03.20/a_Crear Solicitud'))
+WebUI.click(findTestObject('Object Repository/RealizarPedido/Page_Sales Orders 1.0 - 2025.03.21/a_Crear Solicitud'))
 
 WebUI.waitForElementNotVisible(spiner, 30)
 
